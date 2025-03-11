@@ -18,21 +18,23 @@
 아래는 앱의 주요 화면에 대한 스크린샷입니다:
 
 - **로그인 화면**  
-  ![Login Screen](path/to/login_screen.png)
+  ![로그인 화면.png](./screen_shot/로그인%20화면.png)
 
 - **홈 화면**  
-  ![Home Screen](path/to/home_screen.png)
+  ![Home Screen](./screen_shot/높은%20점수순%20화면.png)
+
 
 - **게임 화면**  
-  ![Game Screen](path/to/game_screen.png)
+  ![Game Screen](./screen_shot/게임화면.png)
+
 
 - **게임 오버 화면**  
-  ![Game Over Screen](path/to/game_over_screen.png)
+  ![Game Over Screen](./screen_shot/게임오버%20화면.png)
+
 
 - **리더보드**  
-  ![Leaderboard](path/to/leaderboard.png)
+  ![Leaderboard](./screen_shot/리더보드화면.png)
 
-*(실제 스크린샷이 준비되면 `path/to/`를 실제 경로로 교체하세요.)*
 
 ## 설치 방법
 
@@ -40,7 +42,7 @@ Flutter Tetris 앱을 로컬에서 실행하려면 다음 단계를 따르세요
 
 1. **저장소 복제**:
    ```bash
-   git clone https://github.com/yourusername/flutter_tetris.git
+   git clone https://github.com/chjcmy/tetris_app.git
    cd flutter_tetris
    ```
 
@@ -71,11 +73,10 @@ Flutter Tetris 앱을 로컬에서 실행하려면 다음 단계를 따르세요
 
 4. **게임 오버**:
     - 게임이 종료되면 최종 점수와 총 점수를 확인하세요.
-    - "홈" 버튼을 눌러 홈 화면으로 돌아가세요.
 
 5. **리더보드**:
     - 개인 랭킹과 전체 플레이어 순위를 확인하세요.
-    - "랭킹 갱신" 버튼으로 순위를 새로고침하거나 "닫기" 버튼으로 닫을 수 있습니다.
+
 
 ## 프로젝트 구조
 

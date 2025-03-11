@@ -1,8 +1,8 @@
 // game_view.dart
 // 게임 UI를 담당하는 StatefulWidget 클래스입니다.
 // 게임 보드, 점수/레벨 표시 및 블록 조작 버튼들을 배치하며,
-// 시작 버튼 없이 화면 빌드 완료 후 자동으로 게임을 시작하고,
-// 게임 오버 발생 시 일정 시간 후 자동으로 재시작합니다.
+// 게임이 끝났을시에 game_over_view로 가게 됩니다.
+
 import 'package:flutter/material.dart';
 import 'package:tetris_app/models/tetrimino/direction.dart';
 import 'package:tetris_app/models/tetrimino/piece_type.dart';
