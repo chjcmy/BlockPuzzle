@@ -22,7 +22,6 @@ class GameView extends StatefulWidget {
 class _GameViewState extends State<GameView> {
   late final GameViewModel gameViewModel;
 
-
   @override
   void initState() {
     super.initState();
@@ -59,7 +58,10 @@ class _GameViewState extends State<GameView> {
           });
         }
         return Scaffold(
-          appBar: AppBar(title: const Text('Tetris Game')),
+          appBar: AppBar(
+            title: const Text('Tetris Game'),
+            automaticallyImplyLeading: false, // 뒤로 가기 버튼 제거
+          ),
           body: Padding(
             padding: const EdgeInsets.all(16.0),
             child: Column(

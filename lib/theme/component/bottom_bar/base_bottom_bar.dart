@@ -16,15 +16,15 @@ class BaseBottomBar extends StatelessWidget {
     return items ??
         [
           const BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Text("🏠", style: TextStyle(fontSize: 24)), // 이모지 아이콘
             label: '홈',
           ),
           const BottomNavigationBarItem(
-            icon: Icon(Icons.videogame_asset),
+            icon: Text("🎮", style: TextStyle(fontSize: 24)), // 이모지 아이콘
             label: '게임 시작',
           ),
           const BottomNavigationBarItem(
-            icon: Icon(Icons.leaderboard),
+            icon: Text("🏆", style: TextStyle(fontSize: 24)), // 이모지 아이콘
             label: '전체 순위',
           ),
         ];
@@ -35,6 +35,12 @@ class BaseBottomBar extends StatelessWidget {
     return BottomNavigationBar(
       currentIndex: currentIndex,
       onTap: onTap,
+      backgroundColor: Colors.white, // 배경색 변경
+      selectedItemColor: Colors.black, // 선택된 아이템 색상
+      unselectedItemColor: Colors.grey, // 선택되지 않은 아이템 색상
+      showSelectedLabels: true, // 선택된 아이템 라벨 표시
+      showUnselectedLabels: true, // 선택되지 않은 아이템 라벨도 표시
+      elevation: 4, // 그림자 효과
       items: _buildItems(context),
     );
   }

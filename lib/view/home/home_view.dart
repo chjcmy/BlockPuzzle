@@ -2,11 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tetris_app/models/score.dart';
-import 'package:tetris_app/models/score_type.dart';
 import 'package:tetris_app/view/base_view.dart'; // BaseView import
 import 'package:tetris_app/view/home/home_view_model.dart'; // BLoC(ViewModel)
 import 'package:tetris_app/view/home/widget/home_bottom_bar.dart';
-import 'package:tetris_app/view/home/widget/home_toggle_button.dart';
+import 'package:tetris_app/view/home/widget/score_list/score_list.dart';
+import 'package:tetris_app/view/home/widget/sort_toggel_row.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -23,7 +23,10 @@ class HomeView extends StatelessWidget {
       viewModel: homeViewModel,
       builder: (context, viewModel) {
         return Scaffold(
-          appBar: AppBar(title: const Text('Home')),
+          appBar: AppBar(
+            title: const Text('Home'),
+            automaticallyImplyLeading: false, // 뒤로 가기 버튼 제거
+          ),
           bottomNavigationBar: const HomeBottomBar(),
           body: _buildBody(context, viewModel),
         );
@@ -58,42 +61,17 @@ class HomeView extends StatelessWidget {
           ),
         ),
 
-        // 정렬 버튼 행
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ToggleButton(
-              isSelected: viewModel.state.sortType == ScoreSortType.highScore,
-              label: '높은 점수순',
-              onPressed: () {
-                viewModel.add(const SortScoreList(ScoreSortType.highScore));
-              },
-            ),
-            const SizedBox(width: 8),
-            ToggleButton(
-              isSelected: viewModel.state.sortType == ScoreSortType.latest,
-              label: '최신순',
-              onPressed: () {
-                viewModel.add(const SortScoreList(ScoreSortType.latest));
-              },
-            ),
-          ],
+        SortToggleRow(
+          currentSortType: viewModel.state.sortType,
+          onSortChanged: (sortType) {
+            viewModel.add(SortScoreList(sortType));
+          },
         ),
         const SizedBox(height: 16),
 
         // 점수 목록
         Expanded(
-          child: ListView.builder(
-            itemCount: viewModel.state.scoreList.length,
-            itemBuilder: (context, index) {
-              final score = viewModel.state.scoreList[index];
-              return ListTile(
-                leading: const Icon(Icons.star),
-                title: Text('${score.score}점'),
-                subtitle: Text(score.dateTime.toString()),
-              );
-            },
-          ),
+          child: ScoreList(scores: viewModel.state.scoreList), // 변경된 부분
         ),
       ],
     );

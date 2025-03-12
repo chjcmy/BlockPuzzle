@@ -25,15 +25,15 @@ class HomeBottomBar extends StatelessWidget {
       },
       items: const [
         BottomNavigationBarItem(
-          icon: Icon(Icons.dashboard), // 여기서 변경
+          icon: Text("🏠", style: TextStyle(fontSize: 24)), // 이모지 아이콘
           label: '홈',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.videogame_asset),
+          icon: Text("🎮", style: TextStyle(fontSize: 24)), // 이모지 아이콘
           label: '게임 시작',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.leaderboard),
+          icon: Text("🏆", style: TextStyle(fontSize: 24)), // 이모지 아이콘
           label: '전체 순위',
         ),
       ],

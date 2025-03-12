@@ -25,7 +25,10 @@ class GameOverView extends StatelessWidget {
       builder: (context, viewModel) {
         final state = viewModel.state;
         return Scaffold(
-          appBar: AppBar(title: const Text('Game Over')),
+          appBar: AppBar(
+            title: const Text('Game Over'),
+            automaticallyImplyLeading: false, // 뒤로 가기 버튼 제거
+          ),
           body: Padding(
             padding: const EdgeInsets.all(16.0),
             child:
