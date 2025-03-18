@@ -21,3 +21,7 @@ class SortScoreList extends HomeViewEvent {
   @override
   List<Object?> get props => [sortType];
 }
+
+class LoadSeasonData extends HomeViewEvent {
+  const LoadSeasonData();
+}

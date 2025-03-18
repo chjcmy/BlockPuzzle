@@ -1,26 +1,41 @@
 import 'package:equatable/equatable.dart';
 
-/// 리더보드에 표시할 한 명의 데이터 (랭킹, 플레이어 ID, 점수)
 class LeaderboardEntry extends Equatable {
-  final int rank;
   final String name;
   final int score;
+  final String dateTime;
+  final int seasonYear;
+  final String seasonName;
+  final double percentage;
 
   const LeaderboardEntry({
-    required this.rank,
     required this.name,
     required this.score,
+    this.dateTime = '',
+    this.seasonYear = 0,
+    this.seasonName = '',
+    this.percentage = 0,
   });
 
   @override
-  List<Object?> get props => [rank, name, score];
+  List<Object?> get props => [
+    name,
+    score,
+    dateTime,
+    seasonYear,
+    seasonName,
+    percentage,
+  ];
 
-  // fromJson 생성자: JSON Map으로부터 LeaderboardEntry 객체를 생성합니다.
+  // fromJson 생성자 수정
   factory LeaderboardEntry.fromJson(Map<String, dynamic> json) {
     return LeaderboardEntry(
-      rank: json['rank'] as int? ?? 0, // 만약 서버에서 rank 정보가 없다면 기본 0
       name: json['name'] as String? ?? 'unknown',
       score: json['score'] as int? ?? 0,
+      dateTime: json['dateTime'] as String? ?? '',
+      seasonYear: json['seasonYear'] as int? ?? 0,
+      seasonName: json['seasonName'] as String? ?? '',
+      percentage: (json['percentage'] as num?)?.toDouble() ?? 0.0,
     );
   }
 }

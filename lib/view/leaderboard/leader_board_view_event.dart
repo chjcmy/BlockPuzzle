@@ -8,24 +8,41 @@ abstract class LeaderboardEvent extends Equatable {
   List<Object?> get props => [];
 }
 
-/// 리더보드 목록을 로드하라는 이벤트 (초기 로드)
+/// 초기 시즌과 연도 데이터를 로드하는 이벤트
+class LoadYearsAndSeasonsRequested extends LeaderboardEvent {
+  const LoadYearsAndSeasonsRequested();
+}
+
+// 연도 선택 이벤트
+class YearSelected extends LeaderboardEvent {
+  final int year;
+  const YearSelected(this.year);
+
+  @override
+  List<Object?> get props => [year];
+}
+
+// 시즌 토글 이벤트
+class SeasonSelected extends LeaderboardEvent {
+  final String season;
+  const SeasonSelected(this.season);
+
+  @override
+  List<Object?> get props => [season];
+}
+
 class LeaderboardLoadRequested extends LeaderboardEvent {
   const LeaderboardLoadRequested();
 }
 
-/// 검색어 변경 이벤트
 class LeaderboardSearchChanged extends LeaderboardEvent {
   final String keyword;
   const LeaderboardSearchChanged(this.keyword);
-
+  
   @override
   List<Object?> get props => [keyword];
 }
 
-/// 추가 페이지 로드를 요청하는 이벤트 (페이징)
 class LoadMoreLeaderboard extends LeaderboardEvent {
   const LoadMoreLeaderboard();
-
-  @override
-  List<Object?> get props => [];
 }

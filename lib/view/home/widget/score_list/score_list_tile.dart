@@ -19,16 +19,22 @@ class ScoreListTile extends StatelessWidget {
         border: Border(bottom: BorderSide(color: Colors.grey, width: 0.5)),
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          // 점수 (왼쪽 정렬)
           Text(
             '${score.score}점',
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.left,
           ),
-          const SizedBox(height: 4),
-          Text(
-            formattedDate,
-            style: const TextStyle(fontSize: 14, color: Colors.grey),
+
+          // 날짜 (점수보다 낮게 만들고 오른쪽 정렬)
+          Align(
+            alignment: Alignment.centerRight,
+            child: Text(
+              formattedDate,
+              style: const TextStyle(fontSize: 14, color: Colors.grey),
+            ),
           ),
         ],
       ),

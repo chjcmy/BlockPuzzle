@@ -5,6 +5,7 @@ import 'package:tetris_app/view/game_over/game_over_view.dart';
 import 'package:tetris_app/view/home/home_view.dart';
 import 'package:tetris_app/view/leaderboard/leader_board_view.dart';
 import 'package:tetris_app/view/login/login_view.dart';
+import 'package:tetris_app/view/settings/settings_view.dart';
 
 /// RoutePath는 어플리케이션 내의 각 화면으로의 경로를 정의하고,
 /// onGenerateRoute 함수를 통해 화면 전환을 담당하는 클래스이옵니다.
@@ -23,18 +24,21 @@ abstract class RoutePath {
       case RoutePath.login:
         page = const LoginView();
         break;
-      case home:
+      case RoutePath.home:
         page = const HomeView();
         break;
-      case game:
+      case RoutePath.game:
         page = const GameView();
         break;
-      case gameOver:
+      case RoutePath.gameOver:
         final argScore = settings.arguments as int? ?? 0;
         page = GameOverView(lastScore: argScore);
         break;
-      case leaderboard:
+      case RoutePath.leaderboard:
         page = LeaderboardView();
+        break;
+      case RoutePath.settings:
+        page = const SettingsView();
         break;
     }
     return MaterialPageRoute(
