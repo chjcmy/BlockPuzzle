@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:tetris_app/view/base_view_state.dart';
+import 'package:BlockPuzzle/view/base_view_state.dart';
 
 /// 로그인 화면의 상태를 관리하는 모델 클래스이다.
 /// BaseViewState를 상속받고 EquatableMixin을 사용하여 값 비교를 용이하게 구현하였사있다.

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tetris_app/utils/route_path.dart';
-import 'package:tetris_app/view/base_view.dart';
-import 'package:tetris_app/view/login/login_view_event.dart';
-import 'package:tetris_app/view/login/login_view_model.dart';
-import 'package:tetris_app/view/login/login_view_state.dart';
+import 'package:BlockPuzzle/utils/route_path.dart';
+import 'package:BlockPuzzle/view/base_view.dart';
+import 'package:BlockPuzzle/view/login/login_view_event.dart';
+import 'package:BlockPuzzle/view/login/login_view_model.dart';
+import 'package:BlockPuzzle/view/login/login_view_state.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -12,9 +12,9 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BaseView<LoginViewModel>(
-      viewModel: LoginViewModel(
-        userRepository: context.read(),
-      ),
+        routeName: 'login', 
+
+      viewModel: LoginViewModel(userRepository: context.read()),
       builder: (context, viewModel) {
         final state = viewModel.state;
         if (state.isSuccess) {
@@ -31,9 +31,10 @@ class LoginView extends StatelessWidget {
           ),
           body: Padding(
             padding: const EdgeInsets.all(16.0),
-            child: state.isSuccess
-                ? _buildSuccess(state)
-                : _buildLogin(context, viewModel, state),
+            child:
+                state.isSuccess
+                    ? _buildSuccess(state)
+                    : _buildLogin(context, viewModel, state),
           ),
         );
       },
@@ -41,14 +42,14 @@ class LoginView extends StatelessWidget {
   }
 
   Widget _buildLogin(
-      BuildContext context, LoginViewModel viewModel, LoginViewState state) {
+    BuildContext context,
+    LoginViewModel viewModel,
+    LoginViewState state,
+  ) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Text(
-          '아이디를 입력해주세요',
-          style: TextStyle(fontSize: 18),
-        ),
+        const Text('아이디를 입력해주세요', style: TextStyle(fontSize: 18)),
         const SizedBox(height: 16),
         TextField(
           onChanged: (value) => viewModel.add(UserIdChanged(value)),
@@ -62,9 +63,9 @@ class LoginView extends StatelessWidget {
         state.isLoading
             ? const CircularProgressIndicator()
             : ElevatedButton(
-                onPressed: () => viewModel.add(LoginButtonPressed()),
-                child: const Text('로그인'),
-              ),
+              onPressed: () => viewModel.add(LoginButtonPressed()),
+              child: const Text('로그인'),
+            ),
       ],
     );
   }

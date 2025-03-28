@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:tetris_app/models/tetrimino/direction.dart';
-import 'package:tetris_app/utils/route_path.dart';
-import 'package:tetris_app/view/base_view.dart';
-import 'package:tetris_app/view/game/game_view_event.dart';
-import 'package:tetris_app/view/game/game_view_model.dart';
-import 'package:tetris_app/view/game/widget/game_controls.dart';
-import 'package:tetris_app/view/game/widget/game_info_panel.dart';
-import 'package:tetris_app/view/game/widget/tetris_board.dart';
+import 'package:BlockPuzzle/models/tetrimino/direction.dart';
+import 'package:BlockPuzzle/service/theme/theme_service.dart';
+import 'package:BlockPuzzle/utils/route_path.dart';
+import 'package:BlockPuzzle/view/base_view.dart';
+import 'package:BlockPuzzle/view/game/game_view_event.dart';
+import 'package:BlockPuzzle/view/game/game_view_model.dart';
+import 'package:BlockPuzzle/view/game/widget/game_controls.dart';
+import 'package:BlockPuzzle/view/game/widget/game_info_panel.dart';
+import 'package:BlockPuzzle/view/game/widget/tetris_board.dart';
 
 class GameView extends StatefulWidget {
   const GameView({super.key});
@@ -36,8 +37,13 @@ class _GameViewState extends State<GameView> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = context.theme; // ThemeService에서 테마 가져오기
+
     return BaseView(
+      routeName: 'game',
+
       viewModel: gameViewModel,
+      isGameScreen: true,
       builder: (context, viewModel) {
         // Handle game over navigation
         if (viewModel.state.gameOver) {
@@ -51,50 +57,43 @@ class _GameViewState extends State<GameView> {
         }
 
         return Scaffold(
-          appBar: AppBar(
-            title: const Text('Tetris Block'),
-            centerTitle: true,
-            automaticallyImplyLeading: false,
-          ),
-          body: Container(
-            color: Colors.grey[100],
-            child: Column(
-              children: [
-                // Game info (score, level)
-                GameInfoPanel(
-                  score: viewModel.state.score,
-                  level: viewModel.state.level,
-                  gameOver: viewModel.state.gameOver,
-                ),
+          backgroundColor: theme.color.background, // 테마의 배경색 적용
+          body: Column(
+            children: [
+              // Game info (score, level)
+              GameInfoPanel(
+                score: viewModel.state.score,
+                level: viewModel.state.level,
+                gameOver: viewModel.state.gameOver,
+              ),
 
-                const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-                // Game board
-                Expanded(
-                  child: Center(
-                    child: TetrisBoard(
-                      state: viewModel.state,
-                      gridWidth: GameViewModel.GRID_WIDTH,
-                      gridHeight: GameViewModel.GRID_HEIGHT,
-                    ),
+              // Game board
+              Expanded(
+                child: Center(
+                  child: TetrisBoard(
+                    state: viewModel.state,
+                    gridWidth: GameViewModel.GRID_WIDTH,
+                    gridHeight: GameViewModel.GRID_HEIGHT,
                   ),
                 ),
+              ),
 
-                const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-                // Game controls
-                GameControls(
-                  gameRunning: viewModel.state.gameRunning,
-                  gameOver: viewModel.state.gameOver,
-                  onMoveLeft: () => viewModel.add(PieceMoved(Direction.left)),
-                  onMoveRight: () => viewModel.add(PieceMoved(Direction.right)),
-                  onMoveDown: () => viewModel.add(PieceMoved(Direction.down)),
-                  onRotate: () => viewModel.add(PieceRotated()),
-                ),
+              // Game controls
+              GameControls(
+                gameRunning: viewModel.state.gameRunning,
+                gameOver: viewModel.state.gameOver,
+                onMoveLeft: () => viewModel.add(PieceMoved(Direction.left)),
+                onMoveRight: () => viewModel.add(PieceMoved(Direction.right)),
+                onMoveDown: () => viewModel.add(PieceMoved(Direction.down)),
+                onRotate: () => viewModel.add(PieceRotated()),
+              ),
 
-                const SizedBox(height: 20),
-              ],
-            ),
+              const SizedBox(height: 20),
+            ],
           ),
         );
       },

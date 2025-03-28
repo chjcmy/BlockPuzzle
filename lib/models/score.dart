@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:BlockPuzzle/models/dto/score_dto.dart';
 
 class Score extends Equatable {
   final int score;
@@ -18,6 +19,15 @@ class Score extends Equatable {
     return Score(
       score: map['score'] as int,
       dateTime: DateTime.parse(map['dateTime'] as String),
+    );
+  }
+
+  /// Score -> ScoreDto 변환
+  ScoreDto toDto(String? userId) {
+    return ScoreDto(
+      userName: userId ?? 'Unknown', // 사용자 이름은 하드코딩 또는 동적으로 가져올 수 있음
+      score: score,
+      dateTime: dateTime.millisecondsSinceEpoch,
     );
   }
 

@@ -6,29 +6,32 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tetris_app/utils/route_path.dart';
-import 'package:tetris_app/view/base_view.dart';
-import 'package:tetris_app/view/game_over/game_over_view_event.dart';
-import 'package:tetris_app/view/game_over/game_over_view_model.dart';
+import 'package:BlockPuzzle/utils/route_path.dart';
+import 'package:BlockPuzzle/view/base_view.dart';
+import 'package:BlockPuzzle/view/game_over/game_over_view_event.dart';
+import 'package:BlockPuzzle/view/game_over/game_over_view_model.dart';
 
-class GameOverView extends StatelessWidget {
+class GameOverView extends StatefulWidget {
   final int lastScore;
 
   const GameOverView({super.key, required this.lastScore});
 
   @override
+  State<GameOverView> createState() => _GameOverViewState();
+}
+
+class _GameOverViewState extends State<GameOverView> {
+  @override
   Widget build(BuildContext context) {
-    // BaseView를 통해 GameOverViewModel을 주입하고, 초기 이벤트로 마지막 점수를 전달합니다.
     return BaseView<GameOverViewModel>(
-      viewModel: GameOverViewModel(scoreRepo: context.read())
-        ..add(GameOverInitialized(lastScore)),
+      routeName: 'game_over', // 추가
+      viewModel: GameOverViewModel(
+        scoreRepository: context.read(),
+        userRepository: context.read(),
+      )..add(GameOverInitialized(widget.lastScore)),
       builder: (context, viewModel) {
         final state = viewModel.state;
         return Scaffold(
-          appBar: AppBar(
-            title: const Text('Game Over'),
-            automaticallyImplyLeading: false, // 뒤로 가기 버튼 제거
-          ),
           body: Padding(
             padding: const EdgeInsets.all(16.0),
             child:

@@ -1,6 +1,6 @@
 {
-    "name": "tetris_app",
-    "short_name": "tetris_app",
+    "name": "BlockPuzzle",
+    "short_name": "BlockPuzzle",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

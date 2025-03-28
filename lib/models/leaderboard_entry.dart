@@ -6,7 +6,7 @@ class LeaderboardEntry extends Equatable {
   final String dateTime;
   final int seasonYear;
   final String seasonName;
-  final double percentage;
+  final int percentage;
 
   const LeaderboardEntry({
     required this.name,
@@ -35,7 +35,7 @@ class LeaderboardEntry extends Equatable {
       dateTime: json['dateTime'] as String? ?? '',
       seasonYear: json['seasonYear'] as int? ?? 0,
       seasonName: json['seasonName'] as String? ?? '',
-      percentage: (json['percentage'] as num?)?.toDouble() ?? 0.0,
+      percentage: json['percentage'] as int? ?? 0,
     );
   }
 }

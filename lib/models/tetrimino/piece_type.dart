@@ -4,7 +4,7 @@
 /// BLoC 혹은 ViewModel에서 활용할 수 있도록 합니다.
 library;
 
-import 'package:tetris_app/models/tetrimino/position.dart';
+import 'package:BlockPuzzle/models/tetrimino/position.dart';
 
 /// 테트리스 조각 유형을 열거형으로 정의합니다.
 enum PieceType { I, O, T, S, Z, J, L }

@@ -1,0 +1,5141 @@
+-- Score 테이블 더미 데이터 (유저 71명 x 시즌 12개)
+-- 생성일: Thu Mar 13 08:39:47 KST 2025
+
+BEGIN;
+-- 시즌 ID: 1
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2469, '2023-05-20 06:40:45', 1, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2163, '2023-05-25 01:20:26', 2, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2305, '2023-04-20 11:30:05', 3, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1095, '2023-05-06 17:26:08', 4, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1356, '2023-04-23 10:30:25', 5, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2542, '2023-04-16 14:40:48', 6, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (201, '2023-03-23 10:17:59', 7, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1736, '2023-04-09 12:02:23', 8, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2620, '2023-04-08 02:45:58', 9, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (739, '2023-03-06 01:36:35', 10, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (358, '2023-04-08 09:41:53', 11, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1633, '2023-04-12 05:05:42', 12, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (665, '2023-05-08 09:25:01', 13, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2815, '2023-05-01 20:09:55', 14, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2612, '2023-05-05 19:23:54', 15, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2535, '2023-04-20 05:45:31', 16, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1210, '2023-05-31 09:37:03', 17, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (681, '2023-03-15 08:46:25', 18, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (15, '2023-04-08 13:49:42', 19, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (866, '2023-05-29 09:13:36', 20, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (375, '2023-05-31 05:33:30', 21, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (725, '2023-05-29 22:49:21', 22, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2189, '2023-03-10 19:43:11', 23, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (198, '2023-03-19 02:11:15', 24, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2251, '2023-04-30 21:28:14', 25, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2609, '2023-05-03 23:30:54', 26, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2992, '2023-04-16 00:13:21', 27, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1618, '2023-04-04 05:47:22', 28, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1551, '2023-05-08 13:11:17', 29, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (973, '2023-03-16 13:11:49', 30, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (219, '2023-03-27 09:38:06', 31, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (462, '2023-05-27 03:10:04', 32, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2489, '2023-05-21 22:12:00', 33, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1775, '2023-03-26 15:11:33', 34, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2126, '2023-04-15 03:35:54', 35, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2566, '2023-03-10 02:08:30', 36, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1989, '2023-03-28 12:28:35', 37, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1776, '2023-03-19 01:43:16', 38, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1381, '2023-03-07 16:50:28', 39, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1528, '2023-04-13 11:06:58', 40, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (616, '2023-03-16 22:13:53', 41, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (505, '2023-05-18 18:40:13', 42, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2919, '2023-04-27 07:04:35', 43, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2989, '2023-05-01 02:57:39', 44, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (392, '2023-05-06 01:13:25', 45, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2529, '2023-05-10 04:02:08', 46, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1218, '2023-04-10 17:40:15', 47, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (517, '2023-03-24 02:09:59', 48, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2254, '2023-05-06 05:17:38', 49, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1192, '2023-04-28 08:02:13', 50, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (210, '2023-04-23 04:25:33', 51, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1183, '2023-04-13 14:07:16', 52, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2904, '2023-03-03 07:31:44', 53, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (31, '2023-04-26 23:05:17', 54, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (612, '2023-05-18 20:43:26', 55, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2994, '2023-03-26 16:19:20', 56, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2399, '2023-05-25 13:49:57', 57, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2760, '2023-04-03 10:44:36', 58, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1664, '2023-04-27 05:10:45', 59, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (751, '2023-03-01 14:14:13', 60, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (518, '2023-03-05 05:40:29', 61, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1995, '2023-05-29 02:06:37', 62, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2499, '2023-04-08 10:18:00', 63, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1117, '2023-03-04 16:02:46', 64, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1922, '2023-03-23 07:29:30', 65, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1360, '2023-03-01 09:29:33', 66, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (472, '2023-03-27 01:14:55', 67, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (499, '2023-04-27 03:33:56', 68, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (832, '2023-03-31 06:43:49', 69, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (724, '2023-05-18 16:37:45', 70, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2585, '2023-04-25 20:29:05', 71, 1)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 2
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1165, '2023-06-25 01:58:05', 1, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2258, '2023-07-07 19:03:26', 2, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (624, '2023-08-31 06:55:07', 3, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1594, '2023-08-24 10:48:49', 4, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1457, '2023-06-26 23:48:33', 5, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (996, '2023-06-12 18:31:08', 6, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2594, '2023-06-09 23:47:05', 7, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1305, '2023-06-13 04:06:26', 8, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (712, '2023-08-20 21:37:00', 9, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1394, '2023-07-05 02:56:03', 10, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (114, '2023-07-07 10:02:18', 11, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (953, '2023-07-12 08:23:15', 12, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1321, '2023-07-19 10:20:25', 13, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2194, '2023-07-28 01:04:53', 14, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (763, '2023-06-04 19:05:26', 15, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2571, '2023-06-05 01:29:32', 16, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1643, '2023-07-17 21:31:22', 17, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2829, '2023-06-01 23:52:18', 18, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1275, '2023-07-05 23:13:27', 19, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2428, '2023-07-29 14:02:11', 20, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2686, '2023-06-04 13:06:01', 21, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (353, '2023-07-11 06:47:07', 22, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (924, '2023-06-16 19:09:35', 23, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2210, '2023-07-15 07:32:44', 24, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2569, '2023-08-13 10:02:29', 25, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2797, '2023-07-04 16:57:14', 26, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (185, '2023-07-19 13:23:10', 27, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (50, '2023-07-19 11:39:58', 28, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1002, '2023-06-03 18:47:11', 29, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (381, '2023-08-23 17:41:21', 30, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1469, '2023-08-23 16:43:10', 31, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1713, '2023-07-07 20:18:04', 32, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (328, '2023-08-11 05:38:14', 33, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2479, '2023-08-07 08:39:11', 34, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2025, '2023-07-13 13:30:58', 35, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1483, '2023-08-05 09:58:41', 36, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1807, '2023-07-22 18:11:11', 37, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1364, '2023-06-17 11:27:22', 38, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (511, '2023-07-11 21:48:30', 39, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (166, '2023-07-01 11:58:24', 40, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1465, '2023-06-20 15:53:25', 41, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1226, '2023-08-31 00:32:03', 42, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1254, '2023-07-05 08:06:07', 43, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (3, '2023-07-18 17:14:44', 44, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2683, '2023-07-21 20:33:38', 45, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2281, '2023-07-03 13:10:48', 46, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2327, '2023-07-31 01:21:20', 47, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1507, '2023-08-11 12:17:04', 48, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1909, '2023-08-24 01:59:17', 49, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1796, '2023-08-15 09:13:25', 50, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (623, '2023-06-28 15:33:34', 51, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2191, '2023-08-20 03:19:57', 52, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1489, '2023-07-25 20:29:54', 53, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (508, '2023-06-01 16:15:52', 54, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2559, '2023-08-27 22:36:09', 55, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (213, '2023-07-06 16:11:00', 56, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (727, '2023-08-18 12:22:57', 57, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2275, '2023-08-27 10:10:26', 58, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2382, '2023-06-11 03:04:12', 59, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2676, '2023-08-19 18:41:28', 60, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2804, '2023-06-13 16:48:27', 61, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1995, '2023-07-13 05:39:47', 62, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1473, '2023-06-11 12:52:49', 63, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1048, '2023-06-12 09:09:22', 64, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2591, '2023-06-03 01:02:47', 65, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (345, '2023-06-24 07:13:58', 66, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2229, '2023-06-18 22:12:06', 67, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2822, '2023-06-09 13:02:55', 68, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1430, '2023-08-24 11:58:10', 69, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1515, '2023-08-26 13:12:14', 70, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1650, '2023-07-12 13:04:21', 71, 2)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 3
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1502, '2023-10-24 07:17:08', 1, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2982, '2023-10-18 09:52:27', 2, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2481, '2023-11-13 23:26:54', 3, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (308, '2023-11-04 00:18:49', 4, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2502, '2023-09-30 06:11:23', 5, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1079, '2023-11-13 06:14:21', 6, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1605, '2023-09-20 09:46:18', 7, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (724, '2023-11-02 02:13:27', 8, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (27, '2023-10-14 19:42:52', 9, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2907, '2023-09-10 12:14:40', 10, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2424, '2023-10-08 19:55:40', 11, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1165, '2023-11-02 10:02:46', 12, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1757, '2023-09-24 06:57:49', 13, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1118, '2023-10-23 09:00:03', 14, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1817, '2023-10-08 10:45:36', 15, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1077, '2023-09-27 03:54:43', 16, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1265, '2023-11-15 23:36:57', 17, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2127, '2023-11-28 21:17:33', 18, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2386, '2023-10-10 13:41:56', 19, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1700, '2023-11-11 05:26:23', 20, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2298, '2023-11-25 21:17:25', 21, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2768, '2023-10-30 21:56:28', 22, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2167, '2023-11-02 01:12:17', 23, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (62, '2023-09-09 02:18:44', 24, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1492, '2023-10-20 03:41:22', 25, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1634, '2023-10-25 03:09:48', 26, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2548, '2023-11-29 06:00:36', 27, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2407, '2023-10-18 02:54:03', 28, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1463, '2023-09-29 22:48:57', 29, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2582, '2023-09-13 12:13:02', 30, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (92, '2023-09-21 16:55:50', 31, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (755, '2023-10-25 08:17:28', 32, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2607, '2023-10-24 08:24:19', 33, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (363, '2023-10-13 08:03:14', 34, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1752, '2023-11-11 06:30:20', 35, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (356, '2023-09-18 11:49:44', 36, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (208, '2023-09-20 08:02:17', 37, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (671, '2023-10-31 22:11:52', 38, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (713, '2023-11-20 22:43:15', 39, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1121, '2023-11-25 21:28:42', 40, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (87, '2023-10-11 07:02:14', 41, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1882, '2023-10-05 14:53:28', 42, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2969, '2023-11-03 23:44:09', 43, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2368, '2023-11-21 23:06:19', 44, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1033, '2023-11-06 05:14:48', 45, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1397, '2023-11-12 05:54:46', 46, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (486, '2023-09-06 05:01:43', 47, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1036, '2023-10-10 12:04:39', 48, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (469, '2023-10-01 10:54:54', 49, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2922, '2023-09-19 20:00:03', 50, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (47, '2023-09-22 17:06:49', 51, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2272, '2023-11-06 17:55:30', 52, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (245, '2023-11-30 06:35:28', 53, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2380, '2023-11-04 01:57:17', 54, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2498, '2023-11-12 15:47:33', 55, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (456, '2023-09-11 11:43:03', 56, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2813, '2023-09-06 17:04:54', 57, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1275, '2023-09-08 20:56:43', 58, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2156, '2023-09-05 22:21:56', 59, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2353, '2023-11-07 09:25:16', 60, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (642, '2023-11-01 03:59:05', 61, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2167, '2023-11-21 11:31:47', 62, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2875, '2023-09-09 11:40:24', 63, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (680, '2023-09-14 14:17:48', 64, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1667, '2023-10-09 22:06:57', 65, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2576, '2023-10-05 23:14:34', 66, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (500, '2023-11-30 14:48:44', 67, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (337, '2023-11-07 08:44:00', 68, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1505, '2023-10-03 15:07:50', 69, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (512, '2023-11-02 21:43:51', 70, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2019, '2023-10-14 03:50:43', 71, 3)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 4
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2033, '2024-01-10 20:19:27', 1, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1780, '2024-02-18 16:27:58', 2, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (222, '2024-02-04 14:12:25', 3, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (311, '2024-02-16 19:18:21', 4, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1593, '2024-02-23 00:02:01', 5, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1065, '2024-01-29 09:36:49', 6, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (40, '2024-01-14 23:25:05', 7, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (351, '2024-02-17 01:35:56', 8, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2613, '2024-01-04 07:34:19', 9, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2338, '2024-01-17 02:03:18', 10, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (886, '2024-01-24 18:39:57', 11, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (45, '2023-12-18 05:48:13', 12, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (606, '2024-01-31 00:32:18', 13, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2711, '2024-02-29 11:31:15', 14, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1990, '2024-01-15 19:09:47', 15, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2240, '2024-01-15 21:39:44', 16, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1737, '2024-01-25 23:20:52', 17, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2428, '2024-01-30 04:47:12', 18, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1194, '2023-12-26 11:15:58', 19, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2615, '2024-01-14 22:40:32', 20, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (724, '2023-12-24 03:42:18', 21, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2701, '2024-01-10 13:32:00', 22, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2198, '2024-01-19 01:50:56', 23, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2747, '2024-02-08 15:59:00', 24, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1927, '2024-02-19 06:53:05', 25, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1490, '2024-01-30 00:45:50', 26, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1961, '2024-02-08 04:09:42', 27, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (592, '2024-01-14 07:27:51', 28, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (815, '2024-02-04 09:23:04', 29, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (910, '2023-12-02 10:50:06', 30, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1520, '2024-02-18 10:31:40', 31, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2341, '2024-02-26 18:23:41', 32, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (109, '2024-02-12 13:34:27', 33, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1061, '2024-01-06 06:38:34', 34, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1176, '2024-01-29 13:47:27', 35, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1708, '2023-12-07 16:29:32', 36, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1552, '2024-02-29 19:26:52', 37, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1276, '2024-02-27 09:12:53', 38, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (359, '2024-01-18 00:55:24', 39, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (863, '2024-02-07 14:10:04', 40, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1364, '2024-01-13 05:32:05', 41, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1731, '2023-12-29 23:09:32', 42, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (934, '2023-12-11 06:25:43', 43, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2785, '2023-12-22 03:32:03', 44, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (591, '2024-01-27 18:28:34', 45, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2023, '2024-02-26 13:56:32', 46, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2597, '2024-01-30 04:25:02', 47, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2995, '2024-02-11 03:25:26', 48, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1367, '2024-01-18 22:00:25', 49, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (344, '2023-12-24 20:01:13', 50, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2453, '2023-12-20 10:09:42', 51, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (722, '2023-12-25 08:01:30', 52, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (557, '2024-02-21 07:44:45', 53, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1629, '2024-02-08 13:55:02', 54, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (550, '2024-02-01 06:00:06', 55, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2729, '2024-01-01 20:39:56', 56, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1106, '2023-12-27 02:32:22', 57, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (263, '2023-12-01 07:14:42', 58, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1242, '2023-12-09 08:27:44', 59, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (486, '2024-02-19 17:16:57', 60, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (244, '2024-01-02 12:33:57', 61, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (806, '2023-12-31 02:46:20', 62, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2747, '2024-02-01 15:11:49', 63, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1091, '2024-01-25 09:02:43', 64, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2625, '2023-12-03 09:40:13', 65, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (537, '2024-02-12 16:38:32', 66, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (855, '2023-12-31 03:01:09', 67, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1524, '2024-02-15 22:15:54', 68, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2362, '2024-01-04 00:33:55', 69, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2953, '2023-12-01 15:06:57', 70, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (67, '2024-02-13 01:44:41', 71, 4)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 9
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2856, '2024-04-11 03:36:35', 1, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (225, '2024-05-10 05:17:18', 2, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (647, '2024-03-04 16:33:49', 3, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (596, '2024-04-24 02:35:55', 4, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1294, '2024-05-08 01:42:29', 5, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1735, '2024-04-10 06:53:56', 6, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1375, '2024-04-13 19:03:11', 7, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1794, '2024-03-05 04:05:46', 8, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1256, '2024-04-29 19:20:03', 9, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1430, '2024-04-10 07:05:47', 10, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2983, '2024-04-14 01:32:12', 11, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1244, '2024-04-22 23:39:15', 12, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2440, '2024-04-28 10:55:23', 13, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (265, '2024-04-05 14:13:01', 14, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2282, '2024-03-12 00:04:42', 15, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1509, '2024-03-22 01:41:13', 16, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1464, '2024-04-13 18:05:22', 17, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1964, '2024-05-25 00:27:25', 18, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (795, '2024-05-06 19:57:28', 19, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1763, '2024-04-09 11:46:46', 20, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2536, '2024-04-17 03:39:46', 21, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2189, '2024-05-17 18:51:59', 22, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1954, '2024-05-05 23:28:53', 23, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2354, '2024-05-20 02:15:31', 24, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1574, '2024-03-28 09:39:03', 25, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (472, '2024-04-26 08:02:40', 26, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2407, '2024-05-15 23:00:45', 27, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2024, '2024-04-17 15:23:36', 28, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (531, '2024-05-29 20:10:50', 29, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (491, '2024-03-14 01:44:19', 30, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (4, '2024-05-16 01:49:06', 31, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1746, '2024-04-14 07:18:18', 32, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2779, '2024-04-12 01:19:17', 33, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1239, '2024-04-12 09:06:21', 34, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2463, '2024-03-18 07:07:32', 35, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2028, '2024-04-13 04:22:15', 36, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1249, '2024-05-03 07:54:25', 37, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2656, '2024-05-05 22:49:18', 38, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1852, '2024-05-04 15:44:38', 39, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (824, '2024-04-18 18:00:10', 40, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1382, '2024-03-04 03:02:46', 41, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2631, '2024-03-02 11:17:06', 42, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (864, '2024-05-18 19:14:15', 43, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1628, '2024-05-04 19:33:00', 44, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1078, '2024-04-28 21:35:11', 45, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2401, '2024-04-08 00:14:41', 46, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2380, '2024-03-16 17:34:29', 47, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2951, '2024-04-02 19:55:44', 48, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1731, '2024-03-02 16:21:11', 49, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (866, '2024-04-28 00:06:16', 50, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1758, '2024-03-20 20:38:01', 51, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (731, '2024-04-20 13:59:36', 52, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1957, '2024-05-21 14:23:49', 53, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2348, '2024-05-16 10:58:33', 54, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (734, '2024-03-03 09:24:53', 55, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2394, '2024-03-05 12:18:26', 56, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2718, '2024-05-19 02:25:29', 57, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (681, '2024-03-29 01:16:07', 58, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (763, '2024-05-09 11:04:37', 59, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (794, '2024-03-18 02:25:32', 60, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2094, '2024-03-27 04:11:33', 61, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2788, '2024-04-16 20:31:52', 62, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1991, '2024-04-15 16:19:11', 63, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1081, '2024-04-28 05:55:28', 64, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1224, '2024-05-27 16:15:45', 65, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1340, '2024-04-01 15:19:44', 66, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (660, '2024-03-05 18:02:03', 67, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (3, '2024-04-21 21:59:16', 68, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1921, '2024-04-01 23:47:51', 69, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2374, '2024-04-03 08:25:25', 70, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (891, '2024-03-17 07:03:51', 71, 9)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 10
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2795, '2024-07-12 15:24:51', 1, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (110, '2024-06-28 20:45:16', 2, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (565, '2024-07-10 10:41:26', 3, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1379, '2024-06-11 09:45:20', 4, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (287, '2024-06-22 06:51:19', 5, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (569, '2024-07-23 16:25:25', 6, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2861, '2024-07-02 21:39:10', 7, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (292, '2024-08-06 22:14:47', 8, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (643, '2024-06-27 04:28:21', 9, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2414, '2024-07-28 16:42:59', 10, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1804, '2024-08-23 12:17:31', 11, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2474, '2024-08-02 09:56:09', 12, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2004, '2024-06-28 21:45:32', 13, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1102, '2024-06-22 10:46:35', 14, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1281, '2024-08-28 22:27:53', 15, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (424, '2024-06-24 15:58:32', 16, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (543, '2024-08-28 13:01:53', 17, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2068, '2024-06-08 11:05:55', 18, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (147, '2024-06-01 13:54:23', 19, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (74, '2024-07-23 12:14:51', 20, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (417, '2024-06-11 20:27:44', 21, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1470, '2024-08-11 03:02:19', 22, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2233, '2024-07-19 02:14:41', 23, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2821, '2024-07-04 20:06:10', 24, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (169, '2024-06-21 09:52:11', 25, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (401, '2024-07-21 15:54:48', 26, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2327, '2024-07-15 00:04:49', 27, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1372, '2024-08-14 09:35:44', 28, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2437, '2024-06-04 05:33:26', 29, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (471, '2024-07-27 07:43:01', 30, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2023, '2024-06-10 12:01:49', 31, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2820, '2024-08-08 19:43:31', 32, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (189, '2024-07-16 03:23:09', 33, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1314, '2024-07-30 06:06:53', 34, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1941, '2024-07-15 12:24:54', 35, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (322, '2024-06-19 04:13:40', 36, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1037, '2024-08-04 15:44:26', 37, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2983, '2024-07-31 13:37:58', 38, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1684, '2024-07-08 20:16:56', 39, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2739, '2024-07-07 16:48:20', 40, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (979, '2024-08-28 20:05:54', 41, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (777, '2024-07-14 07:22:29', 42, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1142, '2024-07-01 02:52:16', 43, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1371, '2024-08-20 03:20:44', 44, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2791, '2024-08-04 04:43:36', 45, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (945, '2024-07-30 22:34:36', 46, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (447, '2024-06-17 20:09:57', 47, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (647, '2024-08-14 11:45:05', 48, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2583, '2024-07-16 20:00:18', 49, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1551, '2024-08-22 13:35:15', 50, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (141, '2024-07-30 04:32:55', 51, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (678, '2024-08-31 17:42:53', 52, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2276, '2024-06-13 21:52:06', 53, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1539, '2024-06-02 20:30:27', 54, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2674, '2024-07-12 19:17:36', 55, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (537, '2024-07-21 12:06:08', 56, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (696, '2024-08-10 04:29:46', 57, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1627, '2024-07-05 16:54:46', 58, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (892, '2024-07-07 03:40:41', 59, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (839, '2024-06-15 14:34:56', 60, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1101, '2024-06-09 19:18:25', 61, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1687, '2024-07-04 00:28:45', 62, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1597, '2024-06-17 04:28:29', 63, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1831, '2024-07-22 21:06:14', 64, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2117, '2024-06-24 06:53:40', 65, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2215, '2024-07-30 16:12:52', 66, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2839, '2024-06-26 16:16:43', 67, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2083, '2024-08-14 03:28:22', 68, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (316, '2024-08-16 15:50:33', 69, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2765, '2024-08-31 18:26:38', 70, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2798, '2024-07-17 23:04:39', 71, 10)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 11
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2575, '2024-10-26 23:56:15', 1, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2971, '2024-09-28 18:42:04', 2, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (978, '2024-10-14 00:19:11', 3, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2628, '2024-10-28 11:30:21', 4, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1502, '2024-11-13 02:30:41', 5, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1433, '2024-11-18 10:36:49', 6, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1323, '2024-09-15 12:56:20', 7, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (407, '2024-10-17 13:22:22', 8, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2164, '2024-11-11 19:10:45', 9, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2702, '2024-09-23 10:39:15', 10, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1717, '2024-10-25 08:46:22', 11, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (557, '2024-11-03 14:25:33', 12, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1044, '2024-09-14 19:07:25', 13, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (619, '2024-11-12 13:25:16', 14, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (801, '2024-10-23 14:29:07', 15, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (91, '2024-09-02 15:59:51', 16, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (808, '2024-11-21 09:53:05', 17, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2000, '2024-09-27 14:02:22', 18, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (869, '2024-09-06 01:08:35', 19, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2079, '2024-10-26 18:25:07', 20, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2438, '2024-10-05 15:23:02', 21, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (908, '2024-11-08 00:27:40', 22, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2729, '2024-11-11 01:22:16', 23, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1740, '2024-10-30 14:15:14', 24, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2010, '2024-09-25 19:02:56', 25, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1305, '2024-11-19 16:12:35', 26, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (444, '2024-11-07 20:49:51', 27, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (720, '2024-09-11 15:39:01', 28, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2941, '2024-11-07 16:12:24', 29, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2185, '2024-09-15 22:11:14', 30, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1983, '2024-11-05 16:13:17', 31, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (482, '2024-10-14 20:52:46', 32, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (35, '2024-11-21 03:29:18', 33, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (765, '2024-09-12 00:02:26', 34, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (280, '2024-11-09 10:46:03', 35, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2870, '2024-10-24 15:12:35', 36, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (810, '2024-11-25 22:10:45', 37, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (410, '2024-10-21 22:13:22', 38, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2725, '2024-10-01 10:03:26', 39, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2861, '2024-10-01 16:03:15', 40, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1115, '2024-10-03 07:41:40', 41, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (682, '2024-11-26 23:41:08', 42, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1247, '2024-09-29 20:52:11', 43, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2427, '2024-11-25 11:18:43', 44, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1749, '2024-09-08 10:34:59', 45, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (560, '2024-10-14 19:14:15', 46, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2135, '2024-11-15 16:45:53', 47, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1577, '2024-09-11 13:53:22', 48, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1921, '2024-11-07 19:29:49', 49, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2281, '2024-11-06 15:58:11', 50, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2202, '2024-11-26 19:00:50', 51, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (63, '2024-11-25 03:29:13', 52, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2651, '2024-11-24 13:58:16', 53, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2636, '2024-10-29 20:16:52', 54, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2382, '2024-09-13 04:07:26', 55, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2205, '2024-11-01 19:14:32', 56, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (551, '2024-10-23 07:19:04', 57, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (374, '2024-11-21 08:06:47', 58, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2224, '2024-09-26 00:11:12', 59, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (428, '2024-10-29 17:06:51', 60, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (799, '2024-11-01 01:30:00', 61, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (80, '2024-10-24 20:55:39', 62, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1815, '2024-09-26 06:14:42', 63, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2150, '2024-11-01 03:32:35', 64, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2974, '2024-09-09 03:08:43', 65, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2619, '2024-10-05 04:10:49', 66, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (326, '2024-11-30 12:06:17', 67, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2616, '2024-11-13 21:22:58', 68, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2346, '2024-09-16 14:43:44', 69, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1554, '2024-10-28 10:01:09', 70, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2231, '2024-10-26 16:49:31', 71, 11)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 12
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2127, '2025-02-11 23:40:50', 1, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1260, '2025-01-01 09:57:18', 2, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2956, '2025-01-14 19:39:11', 3, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (933, '2025-02-14 00:27:44', 4, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2399, '2025-02-18 18:35:14', 5, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1021, '2024-12-19 05:27:13', 6, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1864, '2024-12-04 00:03:42', 7, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (798, '2024-12-13 11:02:45', 8, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2870, '2024-12-19 22:10:03', 9, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (55, '2024-12-05 10:11:19', 10, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1121, '2025-02-07 22:34:29', 11, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1837, '2025-02-06 21:29:12', 12, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2161, '2024-12-21 07:16:29', 13, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1610, '2025-01-09 16:34:08', 14, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2436, '2025-02-03 07:57:37', 15, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1051, '2024-12-28 07:09:18', 16, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (878, '2025-01-28 03:45:19', 17, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1782, '2025-02-03 06:15:35', 18, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1055, '2024-12-31 07:00:04', 19, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2670, '2024-12-30 05:47:08', 20, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2666, '2024-12-26 21:08:31', 21, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1183, '2025-01-26 07:05:07', 22, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1062, '2025-01-18 00:52:05', 23, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (841, '2025-01-17 14:57:30', 24, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1839, '2025-02-02 22:08:55', 25, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2869, '2024-12-11 16:45:06', 26, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2678, '2025-02-13 06:34:50', 27, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1136, '2024-12-22 07:17:11', 28, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1231, '2024-12-17 07:08:17', 29, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1539, '2024-12-05 03:02:37', 30, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1341, '2025-01-21 12:58:20', 31, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (571, '2025-01-08 16:16:51', 32, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (390, '2025-01-13 08:00:21', 33, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1739, '2025-01-03 07:12:38', 34, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2819, '2025-02-08 05:09:10', 35, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2459, '2025-01-04 21:36:47', 36, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2233, '2025-01-16 04:51:42', 37, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2438, '2024-12-22 14:21:45', 38, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (641, '2025-01-22 04:07:31', 39, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2914, '2025-01-30 23:10:13', 40, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1815, '2024-12-11 10:32:04', 41, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2742, '2025-02-06 13:11:40', 42, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2964, '2025-02-01 20:10:19', 43, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (604, '2025-01-10 09:00:17', 44, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2792, '2025-02-06 21:08:16', 45, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1314, '2025-01-29 00:08:43', 46, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (600, '2025-01-16 00:37:18', 47, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (522, '2024-12-18 19:09:01', 48, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (514, '2024-12-27 13:47:27', 49, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (138, '2025-02-17 19:44:05', 50, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (695, '2025-02-10 13:42:26', 51, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1275, '2025-01-05 18:09:18', 52, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (516, '2024-12-24 21:19:55', 53, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1751, '2025-01-05 18:47:00', 54, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1326, '2025-02-09 11:00:00', 55, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (237, '2024-12-09 14:29:37', 56, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (719, '2024-12-25 19:31:05', 57, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1331, '2025-01-29 10:52:53', 58, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (198, '2025-02-08 16:26:06', 59, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1353, '2024-12-22 03:41:39', 60, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2463, '2025-02-14 19:01:26', 61, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (955, '2025-01-02 21:31:13', 62, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1602, '2024-12-05 21:46:56', 63, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (342, '2025-01-11 00:40:09', 64, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (484, '2025-02-18 20:41:01', 65, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (312, '2024-12-14 02:12:54', 66, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1432, '2025-01-20 06:43:26', 67, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (613, '2025-01-27 11:18:21', 68, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1094, '2025-02-28 00:39:38', 69, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1471, '2025-02-28 19:25:12', 70, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (142, '2025-02-03 06:03:36', 71, 12)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 13
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (495, '2025-05-26 03:51:31', 1, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (640, '2025-03-26 08:01:18', 2, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (403, '2025-04-28 13:52:52', 3, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1389, '2025-05-21 17:10:59', 4, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (715, '2025-05-02 05:17:45', 5, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (269, '2025-05-06 23:03:57', 6, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2868, '2025-05-13 12:47:41', 7, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2524, '2025-05-23 17:37:33', 8, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (959, '2025-03-27 08:35:39', 9, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2242, '2025-03-15 10:33:27', 10, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2706, '2025-05-27 04:31:21', 11, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (294, '2025-05-23 09:28:04', 12, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2158, '2025-03-24 00:28:04', 13, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (198, '2025-05-07 23:01:12', 14, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2272, '2025-04-14 17:34:37', 15, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2418, '2025-04-19 21:16:39', 16, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1588, '2025-05-20 07:11:47', 17, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2072, '2025-05-21 19:22:31', 18, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2325, '2025-03-28 16:20:38', 19, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1329, '2025-03-16 00:21:32', 20, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (998, '2025-03-07 07:15:06', 21, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (162, '2025-03-17 09:54:11', 22, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1781, '2025-04-07 20:45:17', 23, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1573, '2025-04-10 04:58:00', 24, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2518, '2025-04-09 09:51:59', 25, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1351, '2025-03-27 10:13:13', 26, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2362, '2025-04-12 18:17:35', 27, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (849, '2025-03-31 06:56:15', 28, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (81, '2025-04-10 02:22:22', 29, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (741, '2025-04-19 16:19:39', 30, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1454, '2025-04-26 21:08:06', 31, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1751, '2025-05-03 15:07:34', 32, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2908, '2025-05-17 00:10:44', 33, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (190, '2025-05-10 02:18:41', 34, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (328, '2025-04-25 18:19:43', 35, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (355, '2025-03-24 13:45:46', 36, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (243, '2025-03-26 18:08:19', 37, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1015, '2025-05-08 03:30:54', 38, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1782, '2025-03-19 21:53:13', 39, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2499, '2025-03-28 23:57:00', 40, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1143, '2025-04-02 21:58:04', 41, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2571, '2025-05-24 10:19:12', 42, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (678, '2025-05-18 10:55:00', 43, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (204, '2025-04-09 05:21:35', 44, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2539, '2025-03-21 07:17:40', 45, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1040, '2025-05-07 12:03:41', 46, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (403, '2025-03-11 13:07:04', 47, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (288, '2025-04-25 14:32:15', 48, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2824, '2025-05-31 00:27:47', 49, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1066, '2025-04-05 21:49:03', 50, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (976, '2025-05-16 11:50:46', 51, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1838, '2025-05-03 07:17:30', 52, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1713, '2025-04-02 12:14:28', 53, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (835, '2025-05-26 03:27:40', 54, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1310, '2025-03-06 07:34:50', 55, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (82, '2025-04-19 10:17:42', 56, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (692, '2025-05-02 19:55:47', 57, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (310, '2025-05-08 20:13:11', 58, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2649, '2025-05-26 06:53:32', 59, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1744, '2025-05-03 05:29:13', 60, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1654, '2025-04-26 01:48:33', 61, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (581, '2025-03-18 02:39:33', 62, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (858, '2025-05-14 11:43:02', 63, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2718, '2025-04-27 07:55:20', 64, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2167, '2025-05-05 06:43:24', 65, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2448, '2025-05-16 22:35:28', 66, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1940, '2025-05-06 12:48:20', 67, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2688, '2025-04-09 23:20:35', 68, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1644, '2025-03-02 15:17:40', 69, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (584, '2025-03-19 10:45:37', 70, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1918, '2025-05-03 11:16:44', 71, 13)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 14
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (163, '2025-08-28 21:56:07', 1, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1240, '2025-07-16 11:03:27', 2, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2389, '2025-07-11 05:01:21', 3, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1626, '2025-08-21 05:42:58', 4, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1909, '2025-07-01 07:22:03', 5, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (290, '2025-06-24 15:04:42', 6, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (258, '2025-06-03 11:24:23', 7, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1914, '2025-08-11 22:33:41', 8, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1999, '2025-07-21 21:59:12', 9, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (256, '2025-08-02 11:29:22', 10, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (738, '2025-07-03 11:40:51', 11, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1247, '2025-06-15 11:06:37', 12, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2360, '2025-08-20 21:55:01', 13, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (763, '2025-06-07 02:52:08', 14, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (846, '2025-07-31 15:39:35', 15, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (242, '2025-08-08 07:24:31', 16, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2611, '2025-07-16 08:33:04', 17, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1840, '2025-08-13 14:57:14', 18, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2547, '2025-06-21 16:36:09', 19, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (312, '2025-08-22 23:42:15', 20, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (656, '2025-07-15 18:50:43', 21, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (771, '2025-08-21 17:32:59', 22, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2131, '2025-08-12 23:59:48', 23, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (18, '2025-07-15 22:41:41', 24, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2154, '2025-07-18 22:50:48', 25, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1636, '2025-06-14 13:17:42', 26, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2261, '2025-08-18 21:23:29', 27, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (524, '2025-08-10 10:31:40', 28, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (585, '2025-06-24 08:15:53', 29, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2261, '2025-06-06 05:07:24', 30, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2156, '2025-07-11 19:59:11', 31, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2274, '2025-06-25 13:17:26', 32, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1566, '2025-08-03 10:52:44', 33, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (275, '2025-08-07 10:06:42', 34, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1690, '2025-07-11 11:54:48', 35, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2257, '2025-08-18 21:02:43', 36, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2516, '2025-08-19 08:43:20', 37, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1152, '2025-06-22 16:13:28', 38, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (180, '2025-06-05 06:18:22', 39, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1462, '2025-07-16 20:42:14', 40, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1230, '2025-08-26 03:23:50', 41, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (333, '2025-07-05 14:32:28', 42, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2748, '2025-07-01 11:46:27', 43, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1752, '2025-08-09 08:56:50', 44, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1907, '2025-07-09 09:14:37', 45, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2304, '2025-08-03 01:23:04', 46, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1185, '2025-06-13 22:04:54', 47, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1873, '2025-08-24 12:56:22', 48, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1987, '2025-08-01 19:20:07', 49, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2555, '2025-06-07 01:57:39', 50, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1893, '2025-06-24 14:51:19', 51, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2114, '2025-06-08 21:53:50', 52, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1018, '2025-08-06 14:39:06', 53, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1223, '2025-06-23 10:26:24', 54, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1798, '2025-08-19 23:58:03', 55, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (647, '2025-06-09 07:16:39', 56, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2824, '2025-07-21 20:29:44', 57, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2087, '2025-06-22 21:38:56', 58, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1853, '2025-07-09 06:11:42', 59, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1507, '2025-06-09 05:52:43', 60, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2630, '2025-07-09 00:53:39', 61, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1791, '2025-07-12 21:31:11', 62, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1285, '2025-08-04 08:29:23', 63, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (225, '2025-06-17 04:48:51', 64, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (103, '2025-07-09 21:55:01', 65, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1414, '2025-06-20 02:51:59', 66, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (877, '2025-08-08 03:03:11', 67, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1141, '2025-08-04 09:40:11', 68, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (510, '2025-08-12 15:23:37', 69, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (237, '2025-07-06 09:03:24', 70, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1025, '2025-06-24 19:43:54', 71, 14)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 15
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1574, '2025-10-07 22:08:01', 1, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1799, '2025-10-22 08:46:25', 2, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2123, '2025-09-20 02:57:41', 3, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (642, '2025-11-14 22:12:37', 4, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2723, '2025-11-16 02:03:54', 5, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (870, '2025-10-24 20:57:54', 6, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (841, '2025-09-30 16:52:30', 7, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1461, '2025-09-22 00:32:18', 8, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1388, '2025-11-24 14:45:08', 9, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (690, '2025-09-06 22:35:55', 10, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (811, '2025-10-31 13:07:44', 11, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (534, '2025-10-23 08:30:51', 12, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1192, '2025-11-22 16:18:38', 13, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2612, '2025-09-12 09:23:02', 14, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2181, '2025-10-21 20:25:00', 15, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1340, '2025-09-13 17:57:03', 16, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2838, '2025-10-11 19:57:20', 17, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (840, '2025-10-04 16:08:53', 18, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (886, '2025-10-15 21:48:24', 19, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1586, '2025-10-26 10:07:12', 20, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (172, '2025-11-07 13:02:16', 21, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1021, '2025-11-12 07:28:14', 22, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1065, '2025-09-17 12:01:36', 23, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1152, '2025-11-22 23:35:11', 24, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1013, '2025-10-23 00:00:10', 25, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2309, '2025-10-31 23:05:47', 26, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (437, '2025-09-16 10:49:10', 27, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (188, '2025-10-09 14:44:23', 28, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1473, '2025-11-13 02:48:05', 29, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2000, '2025-09-28 21:27:31', 30, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (527, '2025-11-11 19:07:55', 31, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1875, '2025-09-18 10:28:55', 32, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (150, '2025-09-08 14:04:12', 33, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (143, '2025-09-08 20:00:24', 34, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (556, '2025-09-15 22:08:56', 35, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2081, '2025-10-25 12:34:35', 36, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (501, '2025-10-07 08:16:05', 37, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1019, '2025-09-14 14:59:47', 38, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (534, '2025-11-08 01:26:38', 39, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2179, '2025-10-10 05:43:55', 40, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1352, '2025-11-03 12:33:37', 41, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (64, '2025-10-18 15:38:35', 42, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1962, '2025-11-16 18:18:55', 43, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1548, '2025-11-11 12:25:19', 44, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1550, '2025-10-30 08:13:38', 45, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2868, '2025-09-04 11:43:50', 46, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (704, '2025-10-02 22:30:22', 47, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (167, '2025-10-30 14:36:20', 48, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2060, '2025-09-02 13:00:36', 49, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2209, '2025-09-05 19:15:02', 50, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2533, '2025-10-05 22:23:23', 51, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1171, '2025-09-12 17:47:58', 52, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1947, '2025-09-01 10:10:37', 53, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1342, '2025-09-10 04:22:45', 54, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2296, '2025-09-25 13:28:28', 55, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (311, '2025-11-08 01:25:12', 56, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2012, '2025-11-30 09:10:48', 57, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1335, '2025-11-22 23:52:38', 58, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (511, '2025-10-08 04:29:29', 59, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (511, '2025-10-29 04:01:04', 60, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1582, '2025-11-07 16:17:58', 61, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2469, '2025-10-09 02:55:14', 62, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (137, '2025-09-16 14:53:29', 63, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (435, '2025-09-19 05:48:48', 64, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2716, '2025-10-31 02:13:40', 65, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (565, '2025-11-01 22:11:56', 66, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (703, '2025-10-04 04:17:59', 67, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1098, '2025-11-09 04:03:50', 68, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (835, '2025-10-16 11:11:07', 69, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2744, '2025-11-23 07:05:45', 70, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1888, '2025-09-06 10:26:38', 71, 15)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+-- 시즌 ID: 16
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2704, '2026-01-01 04:39:32', 1, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (438, '2026-01-17 07:54:49', 2, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (316, '2026-02-09 15:32:04', 3, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1465, '2026-02-24 07:35:45', 4, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (631, '2026-02-20 12:08:36', 5, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2328, '2025-12-24 12:05:21', 6, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1084, '2025-12-19 03:15:55', 7, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1720, '2026-02-12 01:37:44', 8, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2551, '2026-01-05 22:14:30', 9, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1892, '2026-02-11 11:52:50', 10, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2801, '2026-02-23 21:29:13', 11, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (420, '2026-01-15 16:05:12', 12, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (725, '2026-01-24 11:27:05', 13, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2117, '2026-02-23 03:28:32', 14, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2035, '2026-01-02 08:56:26', 15, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (312, '2026-02-09 06:25:15', 16, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2185, '2025-12-24 21:26:50', 17, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2706, '2025-12-08 15:14:05', 18, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (716, '2025-12-17 15:14:58', 19, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (418, '2025-12-21 05:31:54', 20, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1112, '2026-01-09 20:01:57', 21, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1658, '2025-12-03 19:20:42', 22, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1782, '2026-01-14 14:07:38', 23, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1562, '2026-02-28 17:45:30', 24, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1547, '2025-12-13 10:33:30', 25, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (931, '2025-12-06 18:25:36', 26, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2261, '2026-02-04 15:09:20', 27, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (10, '2026-01-10 02:47:35', 28, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2111, '2026-01-27 07:17:09', 29, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (66, '2025-12-15 19:36:23', 30, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2057, '2026-01-15 07:10:36', 31, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (302, '2025-12-07 19:53:32', 32, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1268, '2026-02-12 14:50:55', 33, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (969, '2026-02-16 23:13:23', 34, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2305, '2026-02-16 14:46:38', 35, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1431, '2026-01-03 14:14:57', 36, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1592, '2026-02-06 13:14:18', 37, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1043, '2025-12-28 21:35:50', 38, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1177, '2026-01-09 19:31:45', 39, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (263, '2026-01-01 21:29:48', 40, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2384, '2026-01-27 09:40:20', 41, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (803, '2025-12-09 06:51:47', 42, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2865, '2026-02-04 13:03:04', 43, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2292, '2025-12-13 10:00:00', 44, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2962, '2025-12-02 08:34:25', 45, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (347, '2026-01-09 02:19:54', 46, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2438, '2026-02-01 11:33:23', 47, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (569, '2025-12-09 16:36:53', 48, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1843, '2026-02-15 13:55:25', 49, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (227, '2025-12-13 01:28:33', 50, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2364, '2026-02-18 05:32:30', 51, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (809, '2026-01-31 08:23:22', 52, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (363, '2025-12-31 07:57:51', 53, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2790, '2026-01-04 10:41:48', 54, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1911, '2026-02-22 17:55:38', 55, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (401, '2025-12-28 22:54:17', 56, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2672, '2026-01-02 02:57:09', 57, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (562, '2026-01-06 16:30:10', 58, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (46, '2026-01-16 15:59:02', 59, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (788, '2025-12-14 01:52:23', 60, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2153, '2026-01-29 05:26:54', 61, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1186, '2026-02-15 07:06:15', 62, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2349, '2025-12-01 05:08:03', 63, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2042, '2026-01-18 14:56:37', 64, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (238, '2026-02-17 11:09:06', 65, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (1860, '2025-12-17 20:29:20', 66, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (479, '2026-01-17 12:16:13', 67, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (76, '2026-01-28 13:03:49', 68, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2884, '2025-12-07 02:32:25', 69, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (320, '2026-01-30 11:03:14', 70, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+INSERT INTO "Score" (score, "dateTime", "userId", "seasonId")
+VALUES (2686, '2026-02-15 16:06:52', 71, 16)
+ON CONFLICT ("userId", "seasonId") DO UPDATE SET
+  score = EXCLUDED.score,
+  "dateTime" = EXCLUDED."dateTime";
+
+
+COMMIT;

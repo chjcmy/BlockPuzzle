@@ -9,7 +9,7 @@
 library;
 
 import 'package:equatable/equatable.dart';
-import 'package:tetris_app/models/tetrimino/direction.dart';
+import 'package:BlockPuzzle/models/tetrimino/direction.dart';
 
 abstract class GameViewEvent extends Equatable {
   const GameViewEvent();

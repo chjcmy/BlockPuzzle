@@ -1,43 +1,68 @@
 import 'package:flutter/material.dart';
-import 'package:tetris_app/theme/foundation/app_theme.dart';
-import 'package:tetris_app/theme/foundation/app_typo.dart';
-import 'package:tetris_app/theme/res/palette.dart';
-import 'package:tetris_app/theme/res/typo.dart';
-
+import 'package:BlockPuzzle/theme/foundation/app_theme.dart';
+import 'package:BlockPuzzle/theme/foundation/app_typo.dart';
+import 'package:BlockPuzzle/theme/res/typo.dart';
 
 class LightTetrisTheme implements AppTheme {
   @override
-  Brightness brightness = Brightness.light;
+  final Brightness brightness = Brightness.light;
 
   @override
-  AppColor color = const AppColor(
-    surface: Palette.greyLight,             // 카드, 위젯 표면 색상
-    background: Palette.backgroundLight,      // 전체 배경색 (흰색)
-    text: Palette.textLight,                  // 기본 텍스트 색상 (검정)
-    subtext: Palette.greyMedium,              // 보조 텍스트 색상
-    primary: Palette.primary,                 // 주요 색상 (녹색 계열)
-    onPrimary: Palette.white,                 // 주요 색상 위 텍스트 색상
-    secondary: Palette.secondary,             // 보조 색상 (붉은색 계열)
-    onSecondary: Palette.white,               // 보조 색상 위 텍스트 색상
-    tertiary: Palette.accent,                 // 강조 색상 (노란색 계열)
-    onTertiary: Palette.black,                // 강조 색상 위 텍스트 색상
+  final AppColor color = AppColor(
+    surface: const Color(0xFFF5F5F5),
+    background: const Color(0xFFFFFFFF),
+    text: const Color(0xFF333333),
+    subtext: const Color(0xFF666666),
+    primary: const Color(0xFF00796B), // Teal
+    onPrimary: const Color(0xFFFFFFFF),
+    secondary: const Color(0xFFFBC02D), // Amber
+    onSecondary: const Color(0xFF000000),
+    tertiary: const Color(0xFF8E24AA), // Purple
+    onTertiary: const Color(0xFFFFFFFF),
+    border: const Color(0xFFCCCCCC),
+    active: const Color(0xFF00796B),
+    inactive: const Color(0xFFBDBDBD),
+    error: const Color(0xFFD32F2F),
+    success: const Color(0xFF388E3C),
+    warning: const Color(0xFFFBC02D),
+    inputBackground: const Color(0xFFF5F5F5),
+    inputText: const Color(0xFF333333),
+    shadow: const Color(0x29000000),
+    overlay: const Color(0x80000000),
+    diamondRank: const Color(0xFF3BE8FF), // 다이아몬드
+    platinumRank: const Color(0xFFB191FF), // 플래티넘
+    goldRank: Colors.amber, // 골드
+    silverRank: Colors.grey, // 실버
+    bronzeRank: Colors.brown, // 브론즈
   );
 
   @override
-  AppDeco deco = const AppDeco(
+  final AppTypo typo = AppTypo(
+    typo: NotoSansTypo(),
+    fontColor: const Color(0xFF333333),
+  );
+
+  @override
+  final AppDeco deco = AppDeco(
     shadows: [
       BoxShadow(
-        color: Colors.black12,
-        blurRadius: 10,
-        offset: Offset(0, 5),
+        color: const Color(0x29000000),
+        blurRadius: 4,
+        offset: const Offset(0, 2),
       ),
     ],
-    borderRadius: BorderRadius.all(Radius.circular(8.0)),
+    borderRadius: BorderRadius.circular(8),
   );
 
   @override
-  AppTypo typo = AppTypo(
-    typo: NotoSansTypo(),
-    fontColor: Palette.textLight,
-  );
+  set brightness(Brightness brightness) {}
+
+  @override
+  set color(AppColor color) {}
+
+  @override
+  set deco(AppDeco deco) {}
+
+  @override
+  set typo(AppTypo typo) {}
 }

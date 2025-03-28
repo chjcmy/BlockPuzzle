@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:BlockPuzzle/service/theme/theme_service.dart';
 
 class GameInfoPanel extends StatelessWidget {
   final int score;
@@ -14,6 +15,8 @@ class GameInfoPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = context.theme; // ThemeService에서 테마 가져오기
+
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
@@ -23,17 +26,11 @@ class GameInfoPanel extends StatelessWidget {
             children: [
               Text(
                 '점수: $score',
-                style: const TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: theme.typo.headline2, // 테마의 헤드라인 스타일 적용
               ),
               Text(
                 '레벨: $level',
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: theme.typo.bodyText1, // 테마의 본문 스타일 적용
               ),
             ],
           ),
@@ -42,16 +39,14 @@ class GameInfoPanel extends StatelessWidget {
               margin: const EdgeInsets.only(top: 8),
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: Colors.red.withOpacity(0.7),
-                borderRadius: BorderRadius.circular(8),
+                color: theme.color.error.withOpacity(0.7), // 테마의 에러 색상 적용
+                borderRadius: theme.deco.borderRadius,
               ),
-              child: const Text(
+              child: Text(
                 '게임 오버!',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: theme.typo.bodyText1.copyWith(
+                  color: theme.color.onPrimary,
+                ), // 텍스트 색상 적용
               ),
             ),
         ],

@@ -2,9 +2,9 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:tetris_app/models/leaderboard_entry.dart';
-import 'package:tetris_app/models/season.dart';
-import 'package:tetris_app/repositories/leaderboard/leaderboard_repository.dart';
+import 'package:BlockPuzzle/models/leaderboard_entry.dart';
+import 'package:BlockPuzzle/models/season.dart';
+import 'package:BlockPuzzle/repositories/leaderboard/leaderboard_repository.dart';
 
 class LeaderboardRepositoryImpl implements LeaderboardRepository {
   final Dio dio;
@@ -84,7 +84,7 @@ class LeaderboardRepositoryImpl implements LeaderboardRepository {
           dateTime: data[i]['dateTime'] ?? '',
           seasonYear: data[i]['seasonYear'] ?? 0,
           seasonName: data[i]['seasonName'] ?? '',
-          percentage: data[i]['percentage'] ?? 0.0,
+          percentage: data[i]['percentage'] ?? 0,
         );
         entries.add(entry);
       }

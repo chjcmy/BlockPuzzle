@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:BlockPuzzle/service/theme/theme_service.dart';
+import 'package:BlockPuzzle/theme/foundation/app_theme.dart';
 
 class GameControls extends StatelessWidget {
   final bool gameRunning;
@@ -20,6 +22,7 @@ class GameControls extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = context.theme; // ThemeService에서 테마 가져오기
     final bool canControl = gameRunning && !gameOver;
 
     return Column(
@@ -30,18 +33,18 @@ class GameControls extends StatelessWidget {
           height: 70,
           margin: const EdgeInsets.only(bottom: 12),
           decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey[300]!),
-            borderRadius: BorderRadius.circular(8),
+            border: Border.all(color: theme.color.border),
+            borderRadius: theme.deco.borderRadius,
           ),
           child: Material(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(8),
+            color: theme.color.surface,
+            borderRadius: theme.deco.borderRadius,
             child: InkWell(
               onTap: canControl ? onRotate : null,
-              borderRadius: BorderRadius.circular(8),
+              borderRadius: theme.deco.borderRadius,
               child: Icon(
                 Icons.refresh,
-                color: canControl ? Colors.blue : Colors.grey,
+                color: canControl ? theme.color.primary : theme.color.inactive,
                 size: 32,
               ),
             ),
@@ -56,18 +59,21 @@ class GameControls extends StatelessWidget {
               icon: Icons.arrow_back_ios,
               enabled: canControl,
               onTap: onMoveLeft,
+              theme: theme,
             ),
             const SizedBox(width: 8),
             _buildDirectionButton(
               icon: Icons.arrow_downward,
               enabled: canControl,
               onTap: onMoveDown,
+              theme: theme,
             ),
             const SizedBox(width: 8),
             _buildDirectionButton(
               icon: Icons.arrow_forward_ios,
               enabled: canControl,
               onTap: onMoveRight,
+              theme: theme,
             ),
           ],
         ),
@@ -79,23 +85,24 @@ class GameControls extends StatelessWidget {
     required IconData icon,
     required bool enabled,
     required VoidCallback onTap,
+    required AppTheme theme,
   }) {
     return Container(
       width: 70,
       height: 70,
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey[300]!),
-        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: theme.color.border),
+        borderRadius: theme.deco.borderRadius,
       ),
       child: Material(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(8),
+        color: theme.color.surface,
+        borderRadius: theme.deco.borderRadius,
         child: InkWell(
           onTap: enabled ? onTap : null,
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: theme.deco.borderRadius,
           child: Icon(
             icon,
-            color: enabled ? Colors.blue : Colors.grey,
+            color: enabled ? theme.color.primary : theme.color.inactive,
             size: 32,
           ),
         ),

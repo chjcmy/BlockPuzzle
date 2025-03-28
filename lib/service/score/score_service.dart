@@ -1,15 +1,15 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tetris_app/models/score.dart';
-import 'package:tetris_app/models/score_type.dart';
-import 'package:tetris_app/repositories/score_repository.dart';
+import 'package:BlockPuzzle/models/score.dart';
+import 'package:BlockPuzzle/models/score_type.dart';
+import 'package:BlockPuzzle/repositories/score/score_repository_impl.dart';
 
 part 'score_event.dart';
 part 'score_state.dart';
 
 class ScoreService extends Bloc<ScoreEvent, ScoreState> {
-  final ScoreRepository scoreRepository;
+  final ScoreRepositoryImpl scoreRepository;
 
   ScoreService({required this.scoreRepository}) : super(ScoreInitial()) {
     on<LoadScores>(_onLoadScores);

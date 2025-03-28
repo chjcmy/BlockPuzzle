@@ -42,7 +42,7 @@ Flutter Tetris 앱을 로컬에서 실행하려면 다음 단계를 따르세요
 
 1. **저장소 복제**:
    ```bash
-   git clone https://github.com/chjcmy/tetris_app.git
+   git clone https://github.com/chjcmy/BlockPuzzle.git
    cd flutter_tetris
    ```
 

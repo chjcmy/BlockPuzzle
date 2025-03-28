@@ -17,9 +17,9 @@
 library;
 
 import 'package:equatable/equatable.dart';
-import 'package:tetris_app/models/tetrimino/piece_type.dart';
-import 'package:tetris_app/models/tetrimino/position.dart';
-import 'package:tetris_app/view/base_view_state.dart';
+import 'package:BlockPuzzle/models/tetrimino/piece_type.dart';
+import 'package:BlockPuzzle/models/tetrimino/position.dart';
+import 'package:BlockPuzzle/view/base_view_state.dart';
 
 class GameViewState extends BaseViewState with EquatableMixin {
   /// 고정된 블록이 있는 위치를 저장합니다.
@@ -117,4 +117,6 @@ class GameViewState extends BaseViewState with EquatableMixin {
     gameOver,
     isBusy,
   ];
+
+  get isInitialized => null;
 }

@@ -15,12 +15,12 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tetris_app/models/tetrimino/direction.dart';
-import 'package:tetris_app/models/tetrimino/piece_type.dart';
-import 'package:tetris_app/models/tetrimino/position.dart';
-import 'package:tetris_app/view/base_view_model.dart';
-import 'package:tetris_app/view/game/game_view_event.dart';
-import 'package:tetris_app/view/game/game_view_state.dart';
+import 'package:BlockPuzzle/models/tetrimino/direction.dart';
+import 'package:BlockPuzzle/models/tetrimino/piece_type.dart';
+import 'package:BlockPuzzle/models/tetrimino/position.dart';
+import 'package:BlockPuzzle/view/base_view_model.dart';
+import 'package:BlockPuzzle/view/game/game_view_event.dart';
+import 'package:BlockPuzzle/view/game/game_view_state.dart';
 
 class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
   // 게임 보드의 폭과 높이 (10 x 20)

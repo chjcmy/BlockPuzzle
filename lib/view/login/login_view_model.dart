@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tetris_app/repositories/user_repository.dart';
-import 'package:tetris_app/view/base_view_model.dart';
+import 'package:BlockPuzzle/repositories/user/user_repository.dart';
+import 'package:BlockPuzzle/view/base_view_model.dart';
 
 import 'login_view_event.dart';
 import 'login_view_state.dart';

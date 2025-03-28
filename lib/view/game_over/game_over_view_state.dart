@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:tetris_app/view/base_view_state.dart';
+import 'package:BlockPuzzle/view/base_view_state.dart';
 
 class GameOverViewState extends BaseViewState with EquatableMixin {
   final int finalScore;

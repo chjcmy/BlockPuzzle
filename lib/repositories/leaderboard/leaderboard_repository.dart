@@ -1,6 +1,6 @@
 // lib/repositories/leaderboard_repository.dart
-import 'package:tetris_app/models/leaderboard_entry.dart';
-import 'package:tetris_app/models/season.dart';
+import 'package:BlockPuzzle/models/leaderboard_entry.dart';
+import 'package:BlockPuzzle/models/season.dart';
 
 abstract class LeaderboardRepository {
   

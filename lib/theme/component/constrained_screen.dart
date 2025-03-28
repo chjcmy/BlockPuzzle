@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tetris_app/service/theme/theme_service.dart';
+import 'package:BlockPuzzle/service/theme/theme_service.dart';
 
 class ConstrainedScreen extends StatelessWidget {
 
