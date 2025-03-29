@@ -9,7 +9,7 @@ abstract class Typo {
   FontWeight get bold;
 }
 
-/// Tetris 어플에 적합한 NotoSans 폰트를 사용하는 Typo 구현체
+/// BlockPuzzle 어플에 적합한 NotoSans 폰트를 사용하는 Typo 구현체
 class NotoSansTypo implements Typo {
   @override
   final String fontFamily = 'NotoSans';  // Noto Sans 폰트 (프로젝트에 포함 필요)

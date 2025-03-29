@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:BlockPuzzle/theme/achromatopsia_theme.dart';
 import 'package:BlockPuzzle/theme/dark_theme.dart';
 import 'package:BlockPuzzle/theme/foundation/app_theme.dart';
@@ -7,6 +5,8 @@ import 'package:BlockPuzzle/theme/foundation/app_typo.dart';
 import 'package:BlockPuzzle/theme/light_theme.dart';
 import 'package:BlockPuzzle/theme/protanopia_theme.dart';
 import 'package:BlockPuzzle/theme/tritanopia_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'theme_event.dart';
 
@@ -14,7 +14,7 @@ enum ThemeType { light, dark, protanopia, tritanopia, achromatopsia }
 
 class ThemeService extends Bloc<ThemeServiceEvent, AppTheme> {
   ThemeService({AppTheme? initialTheme})
-    : super(initialTheme ?? LightTetrisTheme()) {
+    : super(initialTheme ?? LightBlockPuzzleTheme()) {
     on<onToggleTheme>(_toggleTheme);
     on<onChangeTheme>(_changeTheme);
   }
@@ -23,8 +23,8 @@ class ThemeService extends Bloc<ThemeServiceEvent, AppTheme> {
   void _toggleTheme(onToggleTheme event, Emitter<AppTheme> emit) {
     emit(
       state.brightness == Brightness.light
-          ? DarkTetrisTheme()
-          : LightTetrisTheme(),
+          ? DarkBlockPuzzleTheme()
+          : LightBlockPuzzleTheme(),
     );
   }
 
@@ -37,24 +37,24 @@ class ThemeService extends Bloc<ThemeServiceEvent, AppTheme> {
   AppTheme _getThemeByType(ThemeType themeType) {
     switch (themeType) {
       case ThemeType.light:
-        return LightTetrisTheme();
+        return LightBlockPuzzleTheme();
       case ThemeType.dark:
-        return DarkTetrisTheme();
+        return DarkBlockPuzzleTheme();
       case ThemeType.protanopia:
-        return ProtanopiaTetrisTheme();
+        return ProtanopiaBlockPuzzleTheme();
       case ThemeType.tritanopia:
-        return TritanopiaTetrisTheme();
+        return TritanopiaBlockPuzzleTheme();
       case ThemeType.achromatopsia:
-        return AchromatopsiaTetrisTheme();
-      }
+        return AchromatopsiaBlockPuzzleTheme();
+    }
   }
 
   ThemeType get currentThemeType {
-    if (state is LightTetrisTheme) return ThemeType.light;
-    if (state is DarkTetrisTheme) return ThemeType.dark;
-    if (state is ProtanopiaTetrisTheme) return ThemeType.protanopia;
-    if (state is TritanopiaTetrisTheme) return ThemeType.tritanopia;
-    if (state is AchromatopsiaTetrisTheme) return ThemeType.achromatopsia;
+    if (state is LightBlockPuzzleTheme) return ThemeType.light;
+    if (state is DarkBlockPuzzleTheme) return ThemeType.dark;
+    if (state is ProtanopiaBlockPuzzleTheme) return ThemeType.protanopia;
+    if (state is TritanopiaBlockPuzzleTheme) return ThemeType.tritanopia;
+    if (state is AchromatopsiaBlockPuzzleTheme) return ThemeType.achromatopsia;
     return ThemeType.light; // 기본값
   }
 

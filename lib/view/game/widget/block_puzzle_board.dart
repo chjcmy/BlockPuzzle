@@ -1,14 +1,14 @@
-import 'package:flutter/material.dart';
 import 'package:BlockPuzzle/models/tetrimino/piece_type.dart';
 import 'package:BlockPuzzle/service/theme/theme_service.dart';
 import 'package:BlockPuzzle/view/game/game_view_state.dart';
+import 'package:flutter/material.dart';
 
-class TetrisBoard extends StatelessWidget {
+class BlockPuzzleBoard extends StatelessWidget {
   final GameViewState state;
   final int gridWidth;
   final int gridHeight;
 
-  const TetrisBoard({
+  const BlockPuzzleBoard({
     super.key,
     required this.state,
     required this.gridWidth,

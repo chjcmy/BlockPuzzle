@@ -1,6 +1,6 @@
 part of 'app_theme.dart';
 
-/// Tetris 어플리케이션 전용 색상 팔레트
+/// BlockPuzzle 어플리케이션 전용 색상 팔레트
 class AppColor {
   /// 카드나 위젯 표면 배경 색상
   final Color surface;

@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:BlockPuzzle/theme/component/bottom_bar/base_bottom_bar.dart';
 import 'package:BlockPuzzle/theme/component/theme_selector.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 /// BaseView: BlocProvider를 사용하여 뷰 모델을 제공하고, 화면을 렌더링하는 공통 위젯
 class BaseView<T extends StateStreamableSource<Object?>>
@@ -29,7 +29,7 @@ class BaseView<T extends StateStreamableSource<Object?>>
         builder: (context, state) {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Tetris App"),
+              title: const Text("BlockPuzzle App"),
               automaticallyImplyLeading: false,
               actions: [
                 const ThemeSelector(), // 여기에 ThemeSelector 추가

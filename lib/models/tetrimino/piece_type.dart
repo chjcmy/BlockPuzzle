@@ -2,7 +2,6 @@
 /// 테트리스 조각(PieceType)과 조각의 모양(상대 좌표)을 정의하는 파일입니다.
 /// rotation(0~3)에 따라 각 조각의 상대적 형태를 제공하는 함수를 구현하여,
 /// BLoC 혹은 ViewModel에서 활용할 수 있도록 합니다.
-library;
 
 import 'package:BlockPuzzle/models/tetrimino/position.dart';
 

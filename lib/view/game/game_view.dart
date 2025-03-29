@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
 import 'package:BlockPuzzle/models/tetrimino/direction.dart';
 import 'package:BlockPuzzle/service/theme/theme_service.dart';
 import 'package:BlockPuzzle/utils/route_path.dart';
 import 'package:BlockPuzzle/view/base_view.dart';
 import 'package:BlockPuzzle/view/game/game_view_event.dart';
 import 'package:BlockPuzzle/view/game/game_view_model.dart';
+import 'package:BlockPuzzle/view/game/widget/block_puzzle_board.dart';
 import 'package:BlockPuzzle/view/game/widget/game_controls.dart';
 import 'package:BlockPuzzle/view/game/widget/game_info_panel.dart';
-import 'package:BlockPuzzle/view/game/widget/tetris_board.dart';
+import 'package:flutter/material.dart';
 
 class GameView extends StatefulWidget {
   const GameView({super.key});
@@ -72,7 +72,7 @@ class _GameViewState extends State<GameView> {
               // Game board
               Expanded(
                 child: Center(
-                  child: TetrisBoard(
+                  child: BlockPuzzleBoard(
                     state: viewModel.state,
                     gridWidth: GameViewModel.GRID_WIDTH,
                     gridHeight: GameViewModel.GRID_HEIGHT,

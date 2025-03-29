@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:BlockPuzzle/theme/foundation/app_theme.dart';
 import 'package:BlockPuzzle/theme/foundation/app_typo.dart';
 import 'package:BlockPuzzle/theme/res/typo.dart';
+import 'package:flutter/material.dart';
 
-class ProtanopiaTetrisTheme implements AppTheme {
+class ProtanopiaBlockPuzzleTheme implements AppTheme {
   @override
   final Brightness brightness = Brightness.light;
 

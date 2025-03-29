@@ -285,7 +285,7 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
 
   /// 그리드에서 가득 찬 행을 찾아 제거하고, 제거된 행의 개수를 반환
   int _clearFullRows(Map<String, bool> grid) {
-    int clearedRows = 0; // <- 여기서 변수를 선언해줍니다.
+    int clearedRows = 0; // <- 여기서 변수를 선언해 준다.
 
     // 아래에서 위로 확인 (top=0, bottom=GRID_HEIGHT-1)
     for (int y = GRID_HEIGHT - 1; y >= 0; y--) {
@@ -318,11 +318,3 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
     return clearedRows;
   }
 }
-
-/// 
-/// 아래 예시 shape 데이터나 getTetriminoShape 함수는
-/// piece.dart 또는 별도 헬퍼에 구현할 수 있습니다.
-/// 예: rotation별로 블록의 상대 좌표를 정의.
-/// 
-/// List<Position> getTetriminoShape(PieceType pieceType, int rotation) { ... }
-///

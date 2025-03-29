@@ -1,6 +1,6 @@
-# Flutter Tetris
+# BlockPuzzle
 
-**Flutter Tetris**는 Flutter를 사용하여 개발된 모바일 애플리케이션으로, 클래식 테트리스 게임 경험을 제공하며, 플레이어 프로필, 리더보드, 사용자 맞춤 설정과 같은 현대적인 기능을 포함합니다. 이 앱은 깔끔한 디자인, 직관적인 사용자 인터랙션, 그리고 원활한 성능에 중점을 두고 개발되었습니다.
+**BlockPuzzle**는 Flutter를 사용하여 개발된 모바일 애플리케이션으로, 클래식 테트리스 게임 경험을 제공하며, 플레이어 프로필, 리더보드, 사용자 맞춤 설정과 같은 현대적인 기능을 포함합니다. 이 앱은 깔끔한 디자인, 직관적인 사용자 인터랙션, 그리고 원활한 성능에 중점을 두고 개발되었습니다.
 
 ## 주요 기능
 
@@ -23,37 +23,36 @@
 - **홈 화면**  
   ![Home Screen](./screen_shot/높은%20점수순%20화면.png)
 
-
 - **게임 화면**  
   ![Game Screen](./screen_shot/게임화면.png)
-
 
 - **게임 오버 화면**  
   ![Game Over Screen](./screen_shot/게임오버%20화면.png)
 
-
 - **리더보드**  
   ![Leaderboard](./screen_shot/리더보드화면.png)
 
-
 ## 설치 방법
 
-Flutter Tetris 앱을 로컬에서 실행하려면 다음 단계를 따르세요:
+BlockPuzzle  앱을 로컬에서 실행하려면 다음 단계를 따르세요:
 
 1. **저장소 복제**:
+
    ```bash
    git clone https://github.com/chjcmy/BlockPuzzle.git
-   cd flutter_tetris
+   cd BlockPuzzle
    ```
 
 2. **종속성 설치**:
    Flutter가 설치되어 있는지 확인한 후, 다음 명령어를 실행하세요:
+
    ```bash
    flutter pub get
    ```
 
 3. **앱 실행**:
    디바이스를 연결하거나 에뮬레이터를 시작한 후, 다음 명령어를 실행하세요:
+
    ```bash
    flutter run
    ```
@@ -76,7 +75,6 @@ Flutter Tetris 앱을 로컬에서 실행하려면 다음 단계를 따르세요
 
 5. **리더보드**:
     - 개인 랭킹과 전체 플레이어 순위를 확인하세요.
-
 
 ## 프로젝트 구조
 

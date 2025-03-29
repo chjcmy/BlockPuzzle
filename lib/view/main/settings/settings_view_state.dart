@@ -21,7 +21,7 @@ class SettingsViewState extends BaseViewState with EquatableMixin {
       isBusy: false,
       userId: '',
       version: '1.2.0',
-      developer: 'Tetris Team',
+      developer: 'BlockPuzzle Team',
       error: null,
     );
   }

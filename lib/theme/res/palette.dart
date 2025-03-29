@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Tetris 어플리케이션에서 사용할 색상 팔레트
+/// BlockPuzzle 어플리케이션에서 사용할 색상 팔레트
 abstract class Palette {
   // 주요 색상 계열
   static const Color primary = Color(0xFF5AC463);   // 녹색 계열
