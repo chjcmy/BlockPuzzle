@@ -29,7 +29,6 @@ class ConnectivityService extends Bloc<ConnectivityEvent, bool> {
           result == ConnectivityResult.mobile ||
           result == ConnectivityResult.wifi ||
           result == ConnectivityResult.ethernet;
-      print('Is online: $isOnline');
       add(ConnectivityChangedEvent(isOnline)); // 이벤트 추가
     });
   }
