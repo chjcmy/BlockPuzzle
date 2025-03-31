@@ -1,10 +1,11 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:BlockPuzzle/repositories/user/user_repository_impl.dart';
 import 'package:BlockPuzzle/utils/route_path.dart';
 import 'package:BlockPuzzle/view/base_view.dart';
 import 'package:BlockPuzzle/view/login/login_view_event.dart';
 import 'package:BlockPuzzle/view/login/login_view_model.dart';
 import 'package:BlockPuzzle/view/login/login_view_state.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -12,9 +13,11 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BaseView<LoginViewModel>(
-        routeName: 'login', 
+      routeName: 'login',
 
-      viewModel: LoginViewModel(userRepository: context.read()),
+      viewModel: LoginViewModel(
+        userRepository: context.read<UserRepositoryImpl>(),
+      ),
       builder: (context, viewModel) {
         final state = viewModel.state;
         if (state.isSuccess) {

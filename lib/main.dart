@@ -1,15 +1,17 @@
+import 'package:BlockPuzzle/repositories/leaderboard/leaderboard_repository_impl.dart';
+import 'package:BlockPuzzle/repositories/score/score_repository_impl.dart';
+import 'package:BlockPuzzle/repositories/user/user_repository_impl.dart';
+import 'package:BlockPuzzle/service/connectivity/connectivity_service.dart';
+import 'package:BlockPuzzle/service/score/score_service.dart';
+import 'package:BlockPuzzle/service/theme/theme_service.dart';
+import 'package:BlockPuzzle/utils/helper/net_helper.dart';
+import 'package:BlockPuzzle/utils/route_path.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:path/path.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:BlockPuzzle/repositories/leaderboard/leaderboard_repository_impl.dart';
-import 'package:BlockPuzzle/repositories/score/score_repository_impl.dart';
-import 'package:BlockPuzzle/repositories/user/user_repository_impl.dart';
-import 'package:BlockPuzzle/service/score/score_service.dart';
-import 'package:BlockPuzzle/service/theme/theme_service.dart';
-import 'package:BlockPuzzle/utils/helper/net_helper.dart';
-import 'package:BlockPuzzle/utils/route_path.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +31,7 @@ void main() async {
   final userRepo = UserRepositoryImpl(
     dio: dio,
     baseUrl: baseUrl,
-    sharedPreferences: sharedPreferences, // 올바르게 전달
+    sharedPreferences: sharedPreferences,
   );
 
   runApp(
@@ -48,6 +50,10 @@ void main() async {
                   scoreRepository: context.read<ScoreRepositoryImpl>(),
                 )..add(LoadScores()), // 점수 로드 이벤트 추가
           ),
+          BlocProvider<ConnectivityService>(
+            create:
+                (context) => ConnectivityService(connectivity: Connectivity()),
+          ), // ConnectivityService 추가
         ],
         child: MyApp(initialRoute: initialRoute),
       ),

@@ -1,15 +1,15 @@
+import 'package:BlockPuzzle/service/connectivity/connectivity_service.dart';
 import 'package:BlockPuzzle/theme/component/bottom_bar/base_bottom_bar.dart';
 import 'package:BlockPuzzle/theme/component/theme_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-/// BaseView: BlocProvider를 사용하여 뷰 모델을 제공하고, 화면을 렌더링하는 공통 위젯
 class BaseView<T extends StateStreamableSource<Object?>>
     extends StatelessWidget {
   final T viewModel;
   final Widget Function(BuildContext context, T viewModel) builder;
-  final Widget? gameBody; // 게임 화면일 때 보여줄 body 위젯
-  final bool isGameScreen; // 게임 화면 여부
+  final Widget? gameBody;
+  final bool isGameScreen;
   final String routeName;
 
   const BaseView({
@@ -17,7 +17,7 @@ class BaseView<T extends StateStreamableSource<Object?>>
     required this.viewModel,
     required this.builder,
     this.gameBody,
-    this.isGameScreen = false, // 기본값은 false
+    this.isGameScreen = false,
     required this.routeName,
   });
 
@@ -31,31 +31,21 @@ class BaseView<T extends StateStreamableSource<Object?>>
             appBar: AppBar(
               title: const Text("BlockPuzzle App"),
               automaticallyImplyLeading: false,
-              actions: [
-                const ThemeSelector(), // 여기에 ThemeSelector 추가
-              ],
+              actions: [const ThemeSelector()],
             ),
-            body: builder(context, viewModel), // 게임 화면이 아닐 때는 builder를 사용
+            body: builder(context, viewModel),
             bottomNavigationBar:
                 isGameScreen
                     ? null
-                    : BaseBottomBar(
-                      currentIndex: _getCurrentIndex(routeName),
-                      onTap: (index) => _onTabTapped(context, index),
-                      items: const [
-                        BottomNavigationBarItem(
-                          icon: Icon(Icons.home),
-                          label: 'home',
-                        ),
-                        BottomNavigationBarItem(
-                          icon: Icon(Icons.leaderboard),
-                          label: 'leaderboard',
-                        ),
-                        BottomNavigationBarItem(
-                          icon: Icon(Icons.settings),
-                          label: 'settings',
-                        ),
-                      ],
+                    : BlocBuilder<ConnectivityService, bool>(
+                      builder: (context, isOnline) {
+                        return BaseBottomBar(
+                          currentIndex: _getCurrentIndex(routeName),
+                          onTap:
+                              (index) => _onTabTapped(context, index, isOnline),
+                          isOnline: isOnline,
+                        );
+                      },
                     ),
           );
         },
@@ -63,7 +53,6 @@ class BaseView<T extends StateStreamableSource<Object?>>
     );
   }
 
-  /// 현재 선택된 탭 인덱스를 반환하는 메서드
   int _getCurrentIndex(String routeName) {
     switch (routeName) {
       case 'home':
@@ -77,8 +66,14 @@ class BaseView<T extends StateStreamableSource<Object?>>
     }
   }
 
-  /// 탭 변경 시 네비게이션 수행
-  void _onTabTapped(BuildContext context, int index) {
+  void _onTabTapped(BuildContext context, int index, bool isOnline) {
+    if (index == 1 && !isOnline) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('리더보드는 온라인 상태에서만 접근 가능합니다.')),
+      );
+      return;
+    }
+
     switch (index) {
       case 0:
         Navigator.pushNamed(context, 'home');
