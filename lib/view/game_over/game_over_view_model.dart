@@ -1,12 +1,12 @@
 import 'dart:developer';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:BlockPuzzle/models/score.dart';
 import 'package:BlockPuzzle/repositories/score/score_repository_impl.dart';
 import 'package:BlockPuzzle/repositories/user/user_repository_impl.dart';
 import 'package:BlockPuzzle/view/base_view_model.dart';
 import 'package:BlockPuzzle/view/game_over/game_over_view_event.dart';
 import 'package:BlockPuzzle/view/game_over/game_over_view_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class GameOverViewModel
     extends BaseViewModel<GameOverEvent, GameOverViewState> {
@@ -32,7 +32,7 @@ class GameOverViewModel
     final scoreValue = event.lastScore;
 
     try {
-      // 1) 로컬 DB에 점수 저장 (ScoreRepository 사용)
+      // 1) 로컬 DB에 점수 저장
       final now = DateTime.now();
       final scoreObj = Score(score: scoreValue, dateTime: now);
       await scoreRepository.addScore(scoreObj);
@@ -42,15 +42,32 @@ class GameOverViewModel
       try {
         await scoreRepository.sendScoreToServer(scoreObj.toDto(userId));
         log('점수 서버 전송 성공: $scoreValue');
+        emit(
+          state.copyWith(
+            finalScore: scoreValue,
+            isBusy: false,
+            serverSaveStatus: ServerSaveStatus.success,
+          ),
+        );
       } catch (e) {
         log('점수 서버 전송 실패: $e');
+        emit(
+          state.copyWith(
+            finalScore: scoreValue,
+            isBusy: false,
+            serverSaveStatus: ServerSaveStatus.failure,
+          ),
+        );
       }
-
-      // 최종 상태 업데이트
-      emit(state.copyWith(finalScore: scoreValue, isBusy: false));
     } catch (e) {
       log('오류 발생: $e');
-      emit(state.copyWith(finalScore: scoreValue, isBusy: false));
+      emit(
+        state.copyWith(
+          finalScore: scoreValue,
+          isBusy: false,
+          serverSaveStatus: ServerSaveStatus.failure,
+        ),
+      );
     }
   }
 }

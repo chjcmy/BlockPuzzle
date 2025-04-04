@@ -14,7 +14,7 @@ class LoginView extends StatelessWidget {
   Widget build(BuildContext context) {
     return BaseView<LoginViewModel>(
       routeName: 'login',
-
+      isGameScreen: true,
       viewModel: LoginViewModel(
         userRepository: context.read<UserRepositoryImpl>(),
       ),

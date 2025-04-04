@@ -28,11 +28,14 @@ class BaseView<T extends StateStreamableSource<Object?>>
       child: BlocBuilder<T, dynamic>(
         builder: (context, state) {
           return Scaffold(
-            appBar: AppBar(
-              title: const Text("BlockPuzzle App"),
-              automaticallyImplyLeading: false,
-              actions: [const ThemeSelector()],
-            ),
+            appBar:
+                isGameScreen
+                    ? null
+                    : AppBar(
+                      title: const Text("BlockPuzzle App"),
+                      automaticallyImplyLeading: false,
+                      actions: [const ThemeSelector()],
+                    ),
             body: builder(context, viewModel),
             bottomNavigationBar:
                 isGameScreen

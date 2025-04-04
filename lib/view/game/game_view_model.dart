@@ -14,13 +14,13 @@ library;
 import 'dart:async';
 import 'dart:math';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:BlockPuzzle/models/tetrimino/direction.dart';
 import 'package:BlockPuzzle/models/tetrimino/piece_type.dart';
 import 'package:BlockPuzzle/models/tetrimino/position.dart';
 import 'package:BlockPuzzle/view/base_view_model.dart';
 import 'package:BlockPuzzle/view/game/game_view_event.dart';
 import 'package:BlockPuzzle/view/game/game_view_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
   // 게임 보드의 폭과 높이 (10 x 20)
@@ -113,12 +113,6 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
     final currentPos = state.activePiecePosition;
     // y를 1 증가시켜 한 칸 '아래'로 이동
     final newPos = Position(currentPos.x, currentPos.y + 1);
-
-    // 현재 활성 블록 조각들의 위치를 로그로 출력
-    print("블록 조각들의 현재 위치:");
-    for (final pos in state.activePiecePositions) {
-      print(" - x=${pos.x}, y=${pos.y}");
-    }
 
     if (_canMoveTo(state.activePiece!, state.activePieceRotation, newPos)) {
       final newPositions = _calculatePiecePositions(
@@ -232,24 +226,41 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
   /// 조각 회전 (activePieceRotation + 1) % 4 => 새 회전 상태
   void _onPieceRotated(PieceRotated event, Emitter<GameViewState> emit) {
     if (!state.gameRunning || state.gameOver) return;
-    final newRotation = (state.activePieceRotation + 1) % 4;
-    if (_canMoveTo(
-      state.activePiece!,
-      newRotation,
-      state.activePiecePosition,
-    )) {
-      final newPositions = _calculatePiecePositions(
-        state.activePiece!,
-        newRotation,
-        state.activePiecePosition,
+
+    final currentPiece = state.activePiece!;
+    final currentRotation = state.activePieceRotation;
+    final newRotation = (currentRotation + 1) % 4;
+
+    // 현재 조각의 SRS 오프셋 가져오기
+    final offsets = SRS_OFFSETS[currentPiece]?[currentRotation] ?? [];
+
+    for (final offset in offsets) {
+      final newPos = Position(
+        state.activePiecePosition.x + offset.x,
+        state.activePiecePosition.y + offset.y,
       );
-      emit(
-        state.copyWith(
-          activePieceRotation: newRotation,
-          activePiecePositions: newPositions,
-        ),
-      );
+
+      if (_canMoveTo(currentPiece, newRotation, newPos)) {
+        // 충돌이 없는 경우 회전 적용
+        final newPositions = _calculatePiecePositions(
+          currentPiece,
+          newRotation,
+          newPos,
+        );
+
+        // 상태 업데이트
+        emit(
+          state.copyWith(
+            activePieceRotation: newRotation,
+            activePiecePosition: newPos,
+            activePiecePositions: newPositions,
+          ),
+        );
+        return; // 성공적으로 회전했으므로 종료
+      }
     }
+
+    // 모든 오프셋이 실패하면 회전하지 않음
   }
 
   /// 조각이 특정 위치와 회전 상태로 이동 가능한지 검사
@@ -257,7 +268,6 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
     final positions = _calculatePiecePositions(pieceType, rotation, pos);
     for (final p in positions) {
       // 보드 범위를 벗어나면 이동 불가
-      // y <= 0 이 아닌 y < 0 으로 수정
       if (p.x < 0 || p.x >= GRID_WIDTH || p.y < 0 || p.y >= GRID_HEIGHT) {
         return false;
       }
@@ -275,12 +285,10 @@ class GameViewModel extends BaseViewModel<GameViewEvent, GameViewState> {
     int rotation,
     Position pos,
   ) {
-    // shape 가져오기 (PieceType에 따라 정의된 상대 좌표, rotation별 변환 등)
     final shape = getTetriminoShape(pieceType, rotation);
-
-    return shape.map((offset) {
-      return Position(pos.x + offset.x, pos.y + offset.y);
-    }).toList();
+    return shape
+        .map((offset) => Position(pos.x + offset.x, pos.y + offset.y))
+        .toList();
   }
 
   /// 그리드에서 가득 찬 행을 찾아 제거하고, 제거된 행의 개수를 반환

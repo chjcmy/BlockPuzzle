@@ -1,6 +1,6 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:BlockPuzzle/repositories/user/user_repository.dart';
 import 'package:BlockPuzzle/view/base_view_model.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'login_view_event.dart';
 import 'login_view_state.dart';
@@ -9,7 +9,7 @@ class LoginViewModel extends BaseViewModel<LoginViewEvent, LoginViewState> {
   final UserRepository userRepository;
 
   LoginViewModel({required this.userRepository})
-      : super(LoginViewState(isBusy: false)) {
+    : super(LoginViewState(isBusy: false)) {
     // 이벤트 핸들러 등록
     on<UserIdChanged>(_onUserIdChanged);
     on<LoginButtonPressed>(_onLoginButtonPressed);
@@ -17,12 +17,16 @@ class LoginViewModel extends BaseViewModel<LoginViewEvent, LoginViewState> {
   }
 
   Future<void> _onUserIdChanged(
-      UserIdChanged event, Emitter<LoginViewState> emit) async {
+    UserIdChanged event,
+    Emitter<LoginViewState> emit,
+  ) async {
     emit(state.copyWith(userId: event.userId, error: null));
   }
 
   Future<void> _onLoginButtonPressed(
-      LoginButtonPressed event, Emitter<LoginViewState> emit) async {
+    LoginButtonPressed event,
+    Emitter<LoginViewState> emit,
+  ) async {
     if (state.userId.trim().isEmpty) {
       emit(state.copyWith(error: 'User ID cannot be empty'));
       return;
@@ -30,7 +34,7 @@ class LoginViewModel extends BaseViewModel<LoginViewEvent, LoginViewState> {
     emit(state.copyWith(isLoading: true, error: null));
 
     await Future.delayed(const Duration(seconds: 1));
-    await userRepository.saveUserId(state.userId);
+    await userRepository.validateAndSaveUserId(state.userId);
 
     emit(state.copyWith(isLoading: false, isSuccess: true));
   }

@@ -2,6 +2,7 @@
 /// 테트리스 조각(PieceType)과 조각의 모양(상대 좌표)을 정의하는 파일입니다.
 /// rotation(0~3)에 따라 각 조각의 상대적 형태를 제공하는 함수를 구현하여,
 /// BLoC 혹은 ViewModel에서 활용할 수 있도록 합니다.
+library;
 
 import 'package:BlockPuzzle/models/tetrimino/position.dart';
 
@@ -17,13 +18,8 @@ enum PieceType { I, O, T, S, Z, J, L }
 /// 반환되는 리스트는 각 블록의 상대 좌표(0,0)을 기준으로
 /// (x, y) 형태로 구성됩니다.
 List<Position> getTetriminoShape(PieceType pieceType, int rotation) {
-  // 각 조각마다 rotation(0~3)에 따른 상대 좌표를 정의합니다.
-  // (0,0)을 기준으로 위쪽/오른쪽 방향으로 좌표계를 잡았다고 가정
-  // 테트리스에서는 y가 위->아래 증가 방향이므로, 필요 시 y 축을 반전할 수도 있음.
   switch (pieceType) {
     case PieceType.I:
-      // I 모양 (4칸 일자)
-      // rotation: 0 => 수평, 1 => 수직 (이하 반복)
       switch (rotation % 4) {
         case 0: // 가로 방향
           return [
@@ -201,3 +197,195 @@ List<Position> getTetriminoShape(PieceType pieceType, int rotation) {
     'Unhandled pieceType: $pieceType, rotation: $rotation',
   );
 }
+
+/// SRS 오프셋 정의
+/// 각 조각과 회전 상태에 따라 적용할 오프셋 리스트를 정의합니다.
+const Map<PieceType, Map<int, List<Position>>> SRS_OFFSETS = {
+  PieceType.I: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(2, 0),
+      Position(-1, -1),
+      Position(2, 1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-2, 0),
+      Position(1, 1),
+      Position(-2, -1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(2, 0),
+      Position(-1, 0),
+      Position(2, -1),
+      Position(-1, 1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(-2, 0),
+      Position(1, 0),
+      Position(-2, 1),
+      Position(1, -1),
+    ],
+  },
+  PieceType.T: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(-1, 1),
+      Position(1, -1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(1, -1),
+      Position(-1, 1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(1, 1),
+      Position(-1, -1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(-1, -1),
+      Position(1, 1),
+    ],
+  },
+  PieceType.S: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(0, -1),
+      Position(1, -1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(0, 1),
+      Position(0, -1),
+      Position(-1, 1),
+      Position(-1, -1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(0, 1),
+      Position(-1, 1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(0, -1),
+      Position(0, 1),
+      Position(1, -1),
+      Position(1, 1),
+    ],
+  },
+  PieceType.Z: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(0, -1),
+      Position(-1, -1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(0, 1),
+      Position(0, -1),
+      Position(1, 1),
+      Position(1, -1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(0, 1),
+      Position(1, 1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(0, -1),
+      Position(0, 1),
+      Position(-1, -1),
+      Position(-1, 1),
+    ],
+  },
+  PieceType.J: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(-1, -1),
+      Position(1, -1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(0, 1),
+      Position(0, -1),
+      Position(-1, 1),
+      Position(-1, -1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(1, 1),
+      Position(-1, 1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(0, -1),
+      Position(0, 1),
+      Position(1, -1),
+      Position(1, 1),
+    ],
+  },
+  PieceType.L: {
+    0: [
+      Position(0, 0),
+      Position(-1, 0),
+      Position(1, 0),
+      Position(-1, -1),
+      Position(1, -1),
+    ],
+    1: [
+      Position(0, 0),
+      Position(0, 1),
+      Position(0, -1),
+      Position(1, 1),
+      Position(1, -1),
+    ],
+    2: [
+      Position(0, 0),
+      Position(1, 0),
+      Position(-1, 0),
+      Position(1, 1),
+      Position(-1, 1),
+    ],
+    3: [
+      Position(0, 0),
+      Position(0, -1),
+      Position(0, 1),
+      Position(-1, -1),
+      Position(-1, 1),
+    ],
+  },
+  PieceType.O: {
+    // O 조각은 회전해도 모양이 변하지 않으므로 오프셋이 필요 없음
+    0: [Position(0, 0)],
+    1: [Position(0, 0)],
+    2: [Position(0, 0)],
+    3: [Position(0, 0)],
+  },
+};

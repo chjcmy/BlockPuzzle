@@ -1,6 +1,6 @@
+import 'package:BlockPuzzle/repositories/user/user_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:BlockPuzzle/repositories/user/user_repository.dart';
 
 class UserRepositoryImpl implements UserRepository {
   final Dio dio;
@@ -45,17 +45,21 @@ class UserRepositoryImpl implements UserRepository {
   @override
   Future<bool> registerUserId(String userId) async {
     try {
+      // 서버로 POST 요청 보내기
       final response = await dio.post(
-        '$baseUrl/users/register',
-        data: {'userId': userId},
+        '$baseUrl/users/register', // 서버 엔드포인트
+        data: {'userId': userId}, // 요청 데이터
       );
 
+      // 응답 상태 코드 확인
       if (response.statusCode == 200 || response.statusCode == 201) {
-        return true;
+        return true; // 성공적으로 등록됨
       } else {
-        return false;
+        return false; // 등록 실패
       }
     } catch (e) {
+      // 예외 처리
+      print('Error registering user ID: $e');
       return false;
     }
   }
